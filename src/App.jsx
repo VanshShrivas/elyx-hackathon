@@ -8,6 +8,8 @@ import "./App.css";
 export default function App() {
   const [chatData, setChatData] = useState(null);
   const [activePage, setActivePage] = useState(null); // "generate" | "visualize" | null
+  const [activeCV, setActiveCV] = useState(true); // boolean
+  const [v_data, setVdata] = useState(null);
 
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
@@ -17,6 +19,7 @@ export default function App() {
         try {
           const data = JSON.parse(e.target.result);
           setChatData(data);
+          handleRequest(data);
         } catch (err) {
           alert("Invalid JSON file!");
         }
@@ -26,6 +29,22 @@ export default function App() {
       alert("Please upload a valid JSON file.");
     }
   };
+  async function handleRequest(data) {
+    try {
+      const response = await fetch("http://localhost:5000/visualize", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!response.ok) throw new Error("Failed to generate file");
+
+      const d= await response.json();
+      setVdata(d);
+    }
+    catch (err) {
+      console.log("Error:", err.message)
+    }
+  }
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
@@ -35,7 +54,7 @@ export default function App() {
 
       {/* Step 1 → Ask user what they want */}
       {!chatData && !activePage && (
-        <div className="flex gap-4 items-center">
+        <div className="flex justify-center gap-4 items-center">
           <button
             className="px-6 py-3 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600"
             onClick={() => setActivePage("generate")}
@@ -49,6 +68,7 @@ export default function App() {
             Visualize
           </button>
         </div>
+
       )}
 
       {/* Step 2 → If Generate clicked */}
@@ -71,33 +91,30 @@ export default function App() {
 
       {/* Step 3 → After file upload, show Router-based pages */}
       {chatData && (
-        <Router>
-          <div className="p-4">
-            {/* Navigation */}
-            <nav className="flex space-x-4 mb-6">
-              <Link
-                to="/"
-                className="w-28 flex flex-col items-center justify-center border-2 border-dashed border-blue-400 rounded-xl p-2"
-              >
-                Chat
-              </Link>
-
-              <Link
-                to="/visualizer"
-                className="w-28 flex flex-col items-center justify-center border-2 border-dashed border-green-400 rounded-xl p-2"
-              >
-                Visualizer
-              </Link>
-            </nav>
-
-            {/* Routes */}
-            <Routes>
-              <Route path="/" element={<ChatView data={chatData} />} />
-              <Route path="/visualizer" element={<Visualizer data={chatData} />} />
-            </Routes>
+        <div className="mt-6">
+          <div className="flex justify-center gap-4 mb-4">
+            <button
+              className={`px-6 py-2 rounded-lg shadow ${activeCV ? "bg-blue-500 text-white" : "bg-gray-200"}`}
+              onClick={() => setActiveCV(true)}
+            >
+              Chat
+            </button>
+            <button
+              className={`px-6 py-2 rounded-lg shadow ${!activeCV ? "bg-green-500 text-white" : "bg-gray-200"}`}
+              onClick={() => setActiveCV(false)}
+            >
+              Visualize
+            </button>
           </div>
-        </Router>
+
+          {activeCV ? (
+            <ChatView data={chatData} />
+          ) : (
+            <Visualizer data={v_data} />
+          )}
+        </div>
       )}
+
     </div>
   );
 }

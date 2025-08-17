@@ -1,49 +1,71 @@
-// import { Card, CardContent } from "@/components/ui/card"; // if shadcn/ui available, else use divs
+import React from "react";
 
 export default function Visualizer({ data }) {
+  if (!data || data.length === 0) {
+    return <p className="text-center text-gray-500">No visualization data available</p>;
+  }
+
   return (
-    <div className="p-6 space-y-6">
-      <h1 className="text-2xl font-bold mb-4 text-center">Chat Visualizer</h1>
+    <div className="max-w-5xl mx-auto space-y-6">
+      {data.map((ep) => (
+        <div
+          key={ep.episode}
+          className="border rounded-xl bg-white shadow p-6 hover:shadow-lg transition"
+        >
+          {/* Title + Date */}
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-xl font-bold text-blue-600">
+              Episode {ep.episode}: {ep.title}
+            </h2>
+            <span className="text-sm text-gray-500">{ep.date_range}</span>
+          </div>
 
-      {/* Loop through months */}
-      {data.months.map((month) => (
-        <div key={month.month_index} className="bg-white rounded-xl shadow p-4">
-          <h2 className="text-xl font-semibold mb-2 text-blue-600">
-            {month.month} <span className="text-gray-500 text-sm">({month.theme})</span>
-          </h2>
+          {/* Triggered By + Goal */}
+          <p className="mb-2 text-gray-700">
+            <span className="font-semibold">Triggered by:</span> {ep.triggered_by}
+          </p>
+          <p className="mb-4 text-gray-700">
+            <span className="font-semibold">Primary Goal Trigger:</span> {ep.primary_goal_trigger}
+          </p>
 
-          {/* Weeks timeline */}
-          <div className="border-l-2 border-dashed border-gray-300 ml-4 pl-4 space-y-6">
-            {month.weeks.map((week) => (
-              <div key={week.week} className="relative">
-                {/* Timeline dot */}
-                <span className="absolute -left-6 top-1 w-4 h-4 bg-blue-400 rounded-full border-2 border-white shadow"></span>
+          {/* Persona Before/After */}
+          <div className="grid grid-cols-2 gap-4 mb-4">
+            <div className="p-4 bg-red-50 rounded-lg">
+              <h3 className="font-semibold text-red-600">Before State</h3>
+              <p className="text-sm text-gray-700">{ep.persona_analysis.before_state}</p>
+            </div>
+            <div className="p-4 bg-green-50 rounded-lg">
+              <h3 className="font-semibold text-green-600">After State</h3>
+              <p className="text-sm text-gray-700">{ep.persona_analysis.after_state}</p>
+            </div>
+          </div>
 
-                <h3 className="text-md font-semibold text-gray-700 mb-2">
-                  Week {week.week}
-                </h3>
+          {/* Friction Points */}
+          <div className="mb-4">
+            <h3 className="font-semibold text-yellow-600">Friction Points</h3>
+            <ul className="list-disc list-inside text-sm text-gray-700">
+              {ep.friction_points.map((point, idx) => (
+                <li key={idx}>{point}</li>
+              ))}
+            </ul>
+          </div>
 
-                {/* Summary cards for that week */}
-                <div className="grid sm:grid-cols-2 gap-4">
-                  {week.messages.slice(0, 3).map((msg) => (
-                    <div
-                      key={msg.id}
-                      className={`rounded-lg shadow-sm p-3 text-sm ${
-                        msg.role === "member"
-                          ? "bg-blue-50 border border-blue-200"
-                          : "bg-gray-100 border border-gray-200"
-                      }`}
-                    >
-                      <p className="font-semibold text-gray-700">{msg.author}</p>
-                      <p className="truncate">{msg.text}</p>
-                      <p className="text-[10px] text-gray-500 mt-1">
-                        {msg.timestamp.slice(0, 10)}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
+          {/* Metrics */}
+          <div className="flex gap-6 text-sm text-gray-700 mb-4">
+            <p>
+              <span className="font-semibold">Response Time:</span>{" "}
+              {ep.metrics.response_time}
+            </p>
+            <p>
+              <span className="font-semibold">Time to Resolution:</span>{" "}
+              {ep.metrics.time_to_resolution}
+            </p>
+          </div>
+
+          {/* Outcome */}
+          <div className="p-4 bg-blue-50 rounded-lg">
+            <h3 className="font-semibold text-blue-600">Final Outcome</h3>
+            <p className="text-sm text-gray-700">{ep.final_outcome}</p>
           </div>
         </div>
       ))}

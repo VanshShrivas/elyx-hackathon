@@ -65,16 +65,6 @@ export default function GenerateForm() {
           />
         </div>
 
-        <div>
-          <label className="block text-sm font-medium">Months</label>
-          <input
-            type="number"
-            className="w-full mt-1 p-2 border rounded"
-            value="8"
-            disabled
-          />
-        </div>
-
         <button
           onClick={handleGenerate}
           className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-600"
