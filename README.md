@@ -1,11 +1,11 @@
-# Elyx-Journey-Vizualizer 🧩
+# Elyx-Journey-Visualizer 🧩
 
 Built For Elyx Life Hackathon by **Swarit Srivastava** and **Vansh Srivas**
 
 ---
 
 ## 📌 Overview
-Elyx-Journey-Vizualizer is a full-stack project that simulates and visualizes **synthetic WhatsApp-style health coaching journeys**.  
+Elyx-Journey-Visualizer is a full-stack project that simulates and visualizes **synthetic WhatsApp-style health coaching journeys**.  
 It generates journeys (back-end powered by Flask + LangChain + Mistral AI) and visualizes them (front-end powered by React + Vite + Tailwind).
 
 - **Backend (`chatgenerator-backend`)**: Flask API that generates journeys, handles test reports, and provides structured summaries.  
