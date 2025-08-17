@@ -7,18 +7,13 @@ export default function GenerateForm() {
   const [loading, setLoading] = useState(false);
 
   const handleGenerate = async () => {
-    if (!name) {
-      alert("Please enter a name!");
-      return;
-    }
-
     setLoading(true);
 
     try {
       const response = await fetch("http://localhost:5000/generate/download", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, condition, months }),
+        // body: JSON.stringify({ name, condition, months }),
       });
 
       if (!response.ok) throw new Error("Failed to generate file");
@@ -45,7 +40,7 @@ export default function GenerateForm() {
       <h2 className="text-xl font-semibold mb-4">Generate New Journey</h2>
 
       <div className="space-y-4">
-        {/* <div>
+        <div>
           <label className="block text-sm font-medium">Member Name</label>
           <input
             type="text"
@@ -63,7 +58,7 @@ export default function GenerateForm() {
             value={condition}
             onChange={(e) => setCondition(e.target.value)}
           />
-        </div> */}
+        </div>
 
         <button
           onClick={handleGenerate}
@@ -72,7 +67,6 @@ export default function GenerateForm() {
         >
           {loading ? "⏳ Generating... Please wait" : "Generate & Download"}
         </button>
-      </div>
 
       {loading && (
         <div className="mt-6 text-center">
