@@ -40,26 +40,8 @@ export default function GenerateForm() {
       <h2 className="text-xl font-semibold mb-4">Generate New Journey</h2>
 
       <div className="space-y-4">
-        {/* <div>
-          <label className="block text-sm font-medium">Member Name</label>
-          <input
-            type="text"
-            className="w-full mt-1 p-2 border rounded"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
 
-        <div>
-          <label className="block text-sm font-medium">Condition (optional)</label>
-          <input
-            type="text"
-            className="w-full mt-1 p-2 border rounded"
-            value={condition}
-            onChange={(e) => setCondition(e.target.value)}
-          />
-        </div> */}
-    
+
         <button
           onClick={handleGenerate}
           className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-600"
@@ -67,7 +49,7 @@ export default function GenerateForm() {
         >
           {loading ? "⏳ Generating... Please wait" : "Generate & Download"}
         </button>
-    </div>
+      </div>
 
       {loading && (
         <div className="mt-6 text-center">
@@ -77,6 +59,25 @@ export default function GenerateForm() {
           </p>
         </div>
       )}
+      <div class="max-w-md mx-auto mt-8 p-6 bg-white rounded-2xl shadow-lg">
+        <h2 class="text-xl font-bold mb-4 text-gray-800">Downloadable Datasets</h2>
+
+        <ul class="space-y-3">
+          <li>
+            <a href="/datasets_examples/example1.json" download
+              class="block px-4 py-2 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-600 transition">
+              Download Example 1
+            </a>
+          </li>
+          <li>
+            <a href="/datasets_examples/example2.json" download
+              class="block px-4 py-2 rounded-lg bg-green-500 text-white font-medium hover:bg-green-600 transition">
+              Download Example 2
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   );
 }

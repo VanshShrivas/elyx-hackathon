@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Journey from "../tabs/journey";
 import TestVisualizer from "../tabs/tests";
-import testData1 from "../reports/test1";
-import testData2 from "../reports/test2";
+import testData1 from "../../public/reports/test1";
+import testData2 from "../../public/reports/test2";
 
 export default function Visualizer({ data}) {
   const [activeTab, setActiveTab] = useState("journey");

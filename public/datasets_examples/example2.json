@@ -1,0 +1,4588 @@
+{
+  "months": [
+    {
+      "month_index": 1,
+      "month": "August",
+      "theme": "The Urgent Plea & The Skeptical Hand-off",
+      "weeks": [
+        {
+          "month_index": 1,
+          "month": "August",
+          "theme": "The Urgent Plea & The Skeptical Hand-off",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hi Ruby, just saw the exercise plan. Feels intense for my schedule. Can we tweak it?",
+              "decision": null,
+              "timestamp": "2024-08-05 07:30"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! 😊 I understand. Let me connect you with Rachel, our physiotherapist, to adjust the plan. She’ll call you by EOD.",
+              "decision": {
+                "action": "Connect to physiotherapist",
+                "reason": "Member expressed concern about exercise intensity",
+                "trigger": "Member’s request for modification"
+              },
+              "timestamp": "2024-08-05 08:15"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Rohan, I see your VO2 max is 42. We can start with shorter HIIT sessions (2x/week) and focus on hip stability. How does that sound?",
+              "decision": {
+                "action": "Propose modified exercise plan",
+                "reason": "Member’s fitness level and time constraints",
+                "trigger": "Concierge’s request for adjustment"
+              },
+              "timestamp": "2024-08-05 14:45"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds better. But can we add rest days? I’m traveling next week.",
+              "decision": null,
+              "timestamp": "2024-08-05 15:30"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Absolutely! Let’s do 3x/week with rest days on travel days. I’ll send the updated plan to Sarah for your calendar. 🙌",
+              "decision": {
+                "action": "Finalize adjusted plan",
+                "reason": "Member’s travel schedule",
+                "trigger": "Member’s request for rest days"
+              },
+              "timestamp": "2024-08-05 16:10"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Rachel. Also, my Garmin shows my HRV is low. Should I worry?",
+              "decision": null,
+              "timestamp": "2024-08-06 06:45"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "HRV can fluctuate with stress. Your Garmin data shows recovery is slower post-travel. Let’s monitor for 2 weeks before adjusting.",
+              "decision": {
+                "action": "Monitor HRV trends",
+                "reason": "Member’s concern about HRV",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2024-08-06 09:20"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Any food recommendations to help with recovery?",
+              "decision": null,
+              "timestamp": "2024-08-06 10:30"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Focus on Omega-3s (salmon, walnuts) and probiotics (yogurt, kimchi). Your gut microbiome needs support. I’ll send a meal plan to Sarah.",
+              "decision": {
+                "action": "Provide dietary recommendations",
+                "reason": "Member’s request for recovery support",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2024-08-06 11:15"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Appreciate it. My BP was 138/88 last check. Any concerns?",
+              "decision": null,
+              "timestamp": "2024-08-07 07:10"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Mild hypertension, but your recent BP is improving. Let’s track it weekly. Avoid excess salt and prioritize sleep.",
+              "decision": {
+                "action": "Recommend BP monitoring",
+                "reason": "Member’s BP reading",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2024-08-07 08:40"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. My cholesterol was high last test. Any updates?",
+              "decision": null,
+              "timestamp": "2024-08-07 14:20"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Your LDL is 135, but HDL is low. The ApoB/ApoA ratio is elevated. We’ll track this in 3 months. For now, focus on the diet plan.",
+              "decision": {
+                "action": "Monitor lipid profile",
+                "reason": "Member’s cholesterol concern",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2024-08-07 15:05"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Understood. Thanks everyone. I’ll stick to the plan and check in next week.",
+              "decision": null,
+              "timestamp": "2024-08-07 16:30"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Great, Rohan! We’re here to support you. Let’s aim for consistency. 📊",
+              "decision": {
+                "action": "Encourage adherence",
+                "reason": "Member’s commitment to plan",
+                "trigger": "Member’s closing message"
+              },
+              "timestamp": "2024-08-07 17:10"
+            }
+          ]
+        },
+        {
+          "month_index": 1,
+          "month": "August",
+          "theme": "The Urgent Plea & The Skeptical Hand-off",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Ruby, I just saw the latest blood report. My LDL is still high. What’s the plan?",
+              "decision": null,
+              "timestamp": "2024-08-12 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Dr. Warren is reviewing your latest results. He’ll share a detailed plan soon. In the meantime, Carla (our nutritionist) has a few quick adjustments for you.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Okay, but I need actionable steps now. My travel schedule is packed next month.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:22"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Rohan, we’ll focus on reducing saturated fats and increasing soluble fiber. Start with chia seeds in your morning smoothie—easy to pack for travel. Avoid fried foods when dining out.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:25"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. What about supplements? My Vitamin D is still low.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:27"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "We’ll increase your D3 dosage to 4000 IU/day. Also, add a high-quality Omega-3 supplement—look for one with at least 1000mg EPA/DHA per serving.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:30"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sarah will handle the orders. Anything else urgent?",
+              "decision": null,
+              "timestamp": "2024-08-12 08:32"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren wants to discuss your blood pressure trends. Can we schedule a quick call today?",
+              "decision": {
+                "action": "Schedule call",
+                "reason": "Discuss blood pressure trends",
+                "trigger": "High LDL and BP in latest report"
+              },
+              "timestamp": "2024-08-12 08:35"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but only 15 mins. I have a client call at 10am.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:37"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Dr. Warren will call you at 9:30am. I’ll send a calendar invite via Sarah.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:39"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, my Garmin shows my HRV is dipping. Any thoughts?",
+              "decision": null,
+              "timestamp": "2024-08-12 08:41"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Your HRV trends suggest mild stress accumulation. Let’s analyze your sleep data—are you getting 7+ hours nightly?",
+              "decision": null,
+              "timestamp": "2024-08-12 08:45"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Not really. Travel disruptions and late dinners. Any quick fixes?",
+              "decision": null,
+              "timestamp": "2024-08-12 08:47"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Try a 10-min wind-down routine: deep breathing + light stretching. Even 6 hours of sleep with this can help HRV recovery.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:50"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks, team. Keep me posted on the doctor’s call.",
+              "decision": null,
+              "timestamp": "2024-08-12 08:52"
+            },
+            {
+              "id": "m_week2_16",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! Let’s reconnect after your call with Dr. Warren. 🙌",
+              "decision": null,
+              "timestamp": "2024-08-12 08:55"
+            }
+          ]
+        },
+        {
+          "month_index": 1,
+          "month": "August",
+          "theme": "The Urgent Plea & The Skeptical Hand-off",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, any updates on my latest blood work? I’ve been feeling a bit off lately.",
+              "decision": null,
+              "timestamp": "2024-08-19 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! I’ll check with Dr. Warren and get back to you by EOD. Anything specific you’re noticing?",
+              "decision": null,
+              "timestamp": "2024-08-19 08:20"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Just occasional dizziness and fatigue. Nothing major, but I want to stay on top of it.",
+              "decision": null,
+              "timestamp": "2024-08-19 08:22"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Got it! I’ll also sync with Carla about your diet adjustments. Your Garmin data shows sleep quality has dipped slightly.",
+              "decision": null,
+              "timestamp": "2024-08-19 08:25"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, my BP monitor at home showed 135/85 yesterday. Should I be concerned?",
+              "decision": null,
+              "timestamp": "2024-08-19 08:28"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is slightly elevated but not alarming. Let’s monitor it closely. Your last lab work showed improved cholesterol and inflammation markers.",
+              "decision": null,
+              "timestamp": "2024-08-19 10:30"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Good to hear! What’s the plan for the dizziness?",
+              "decision": null,
+              "timestamp": "2024-08-19 10:35"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Could be dehydration or mild orthostatic hypotension. Try increasing water intake and slow movements when standing. If it persists, we’ll run further tests.",
+              "decision": null,
+              "timestamp": "2024-08-19 10:40"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will do. Any changes to my meds?",
+              "decision": null,
+              "timestamp": "2024-08-19 10:42"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "No changes needed for now. Your BP meds are working well. Let’s recheck in 2 weeks.",
+              "decision": null,
+              "timestamp": "2024-08-19 10:45"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Rohan, I’ve reviewed your data. Your Omega-3 levels are still borderline. Let’s add more fatty fish to your meals. Also, your gut microbiome could use more probiotics.",
+              "decision": null,
+              "timestamp": "2024-08-19 14:15"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Understood. I’ll ask the cook to include salmon twice a week. Any specific probiotic recommendations?",
+              "decision": null,
+              "timestamp": "2024-08-19 14:20"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "A high-quality probiotic with Lactobacillus and Bifidobacterium strains. I’ll send you a list of options.",
+              "decision": null,
+              "timestamp": "2024-08-19 14:25"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rohan, your next full-body scan is scheduled for October. Should we prep anything specific?",
+              "decision": null,
+              "timestamp": "2024-08-20 09:00"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "No, just the usual. Thanks for keeping me on track!",
+              "decision": null,
+              "timestamp": "2024-08-20 09:05"
+            },
+            {
+              "id": "m_week3_16",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! Let me know if you need anything else. 😊",
+              "decision": null,
+              "timestamp": "2024-08-20 09:10"
+            },
+            {
+              "id": "m_week3_17",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Rohan, your hip stability is improving! Let’s add some resistance exercises to your routine. Here’s a quick video guide.",
+              "decision": null,
+              "timestamp": "2024-08-21 16:30"
+            },
+            {
+              "id": "m_week3_18",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Rachel! I’ll start tomorrow. Any tips for consistency?",
+              "decision": null,
+              "timestamp": "2024-08-21 16:35"
+            },
+            {
+              "id": "m_week3_19",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Set reminders and pair it with your morning coffee! Small habits stick best. 👍",
+              "decision": null,
+              "timestamp": "2024-08-21 16:40"
+            },
+            {
+              "id": "m_week3_20",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Great progress, Rohan! Your discipline is paying off. Keep up the momentum. 🙌",
+              "decision": null,
+              "timestamp": "2024-08-22 11:15"
+            }
+          ]
+        },
+        {
+          "month_index": 1,
+          "month": "August",
+          "theme": "The Urgent Plea & The Skeptical Hand-off",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest test results. The BP is better but LDL is still high. What’s the plan?",
+              "decision": null,
+              "timestamp": "2024-08-26 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Great you’re tracking this. Dr. Warren will review the full report and suggest next steps. I’ll sync with Carla for nutrition tweaks. 👍",
+              "decision": null,
+              "timestamp": "2024-08-26 08:20"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, the grip strength test was lower than expected. Is that concerning?",
+              "decision": null,
+              "timestamp": "2024-08-26 08:25"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Hi Rohan! The grip strength is a bit low but not alarming. Let’s add 2x/week resistance training for hands/wrists. Simple exercises at home or office.",
+              "decision": null,
+              "timestamp": "2024-08-26 09:10"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Can Sarah schedule a quick call with you to review the routine?",
+              "decision": null,
+              "timestamp": "2024-08-26 09:15"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Sure! Sarah can book a 15-min slot anytime this week. We’ll keep it flexible for your travel.",
+              "decision": null,
+              "timestamp": "2024-08-26 09:20"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Also, the Vitamin D and Omega-3 levels are still low. Any updates on supplements?",
+              "decision": null,
+              "timestamp": "2024-08-26 10:30"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Rohan, we’ll adjust your supplements. Higher-dose Vitamin D (4000 IU/day) and Omega-3 (2g/day) for 3 months. I’ll send the updated plan to Sarah.",
+              "decision": null,
+              "timestamp": "2024-08-26 11:00"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Carla. What about the gut microbiome? The report mentioned low diversity.",
+              "decision": null,
+              "timestamp": "2024-08-26 11:10"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "We’ll add a probiotic (Lactobacillus + Bifidobacterium) and prebiotic fiber (inulin). Also, more fermented foods like yogurt and kimchi. Small steps!",
+              "decision": null,
+              "timestamp": "2024-08-26 11:15"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will Sarah coordinate the supplement delivery?",
+              "decision": null,
+              "timestamp": "2024-08-26 11:20"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Yes, Sarah will handle it. Also, Dr. Warren wants to discuss the ApoB/ApoA ratio next week. He’ll share a detailed report by Monday.",
+              "decision": null,
+              "timestamp": "2024-08-26 11:25"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. Let’s plan a call after the report is ready.",
+              "decision": null,
+              "timestamp": "2024-08-26 11:30"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! For now, focus on the resistance training and supplements. Small wins add up. 🙌",
+              "decision": null,
+              "timestamp": "2024-08-26 11:35"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks team!",
+              "decision": null,
+              "timestamp": "2024-08-26 11:40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 2,
+      "month": "September",
+      "theme": "Resistance & Reframing",
+      "weeks": [
+        {
+          "month_index": 2,
+          "month": "September",
+          "theme": "Resistance & Reframing",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! 😊 How are you feeling this week? Any travel plans coming up?",
+              "decision": null,
+              "timestamp": "2024-09-02 08:30"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Morning Ruby. Just back from Seoul, jet lagged but good. Heading to London next week.",
+              "decision": null,
+              "timestamp": "2024-09-02 09:15"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Got it! I’ll sync with Carla about meal prep for your trip. Also, Rachel wanted to check in about your exercise routine.",
+              "decision": null,
+              "timestamp": "2024-09-02 09:20"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yeah, I’ve been inconsistent with the HIIT. Travel messes with my schedule.",
+              "decision": null,
+              "timestamp": "2024-09-02 09:25"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Rohan, I see your VO2 max is 42. Let’s tweak the plan: 2x/week HIIT (20 min) + stability work. How does that sound?",
+              "decision": null,
+              "timestamp": "2024-09-02 10:10"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds doable. Can we do 3x/week with rest days on travel days?",
+              "decision": null,
+              "timestamp": "2024-09-02 10:15"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Absolutely! I’ll adjust the plan and send it to Sarah. 🙌 Let’s focus on hip stability too.",
+              "decision": null,
+              "timestamp": "2024-09-02 10:20"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Your Garmin data shows slower HRV recovery post-travel. Let’s monitor for 2 weeks before adjusting.",
+              "decision": null,
+              "timestamp": "2024-09-02 14:30"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Rohan, focus on Omega-3s (salmon, walnuts) and probiotics (yogurt, kimchi). Your gut microbiome needs support.",
+              "decision": null,
+              "timestamp": "2024-09-02 15:00"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will Sarah get the meal plan?",
+              "decision": null,
+              "timestamp": "2024-09-02 15:05"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Yes! I’ll send it over today. Also, consider a high-quality Omega-3 supplement—1000mg EPA/DHA daily.",
+              "decision": null,
+              "timestamp": "2024-09-02 15:10"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is improving but still mild hypertension. Let’s track it weekly. Avoid excess salt and prioritize sleep.",
+              "decision": null,
+              "timestamp": "2024-09-03 09:00"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Your LDL is 135, HDL is low. The ApoB/ApoA ratio is elevated. We’ll track this in 3 months. For now, focus on the diet plan.",
+              "decision": null,
+              "timestamp": "2024-09-03 10:30"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Great, Rohan! We’re here to support you. Let’s aim for consistency. 📊",
+              "decision": null,
+              "timestamp": "2024-09-03 11:00"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, team. I’ll do my best. Heading to the gym now!",
+              "decision": null,
+              "timestamp": "2024-09-03 11:30"
+            }
+          ]
+        },
+        {
+          "month_index": 2,
+          "month": "September",
+          "theme": "Resistance & Reframing",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hi Ruby, any updates on my latest test results?",
+              "decision": null,
+              "timestamp": "2024-09-09 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! I’ll pull up your latest report. Dr. Warren will review it with you this week. How’s your travel schedule looking?",
+              "decision": null,
+              "timestamp": "2024-09-09 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "I’m in Singapore until next Monday. Then off to Seoul for a week.",
+              "decision": null,
+              "timestamp": "2024-09-09 08:22"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! Let’s schedule the call for Wednesday at 4 PM (SGT). Will that work?",
+              "decision": {
+                "action": "Schedule call",
+                "reason": "To review test results",
+                "trigger": "Member’s availability"
+              },
+              "timestamp": "2024-09-09 08:25"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, 4 PM is good. Also, my BP has been fluctuating. Any advice?",
+              "decision": null,
+              "timestamp": "2024-09-09 08:27"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Dr. Warren will address that. Meanwhile, Carla (our nutritionist) suggests reducing sodium and increasing potassium. Want me to share her quick tips?",
+              "decision": {
+                "action": "Share nutrition tips",
+                "reason": "Address BP concerns",
+                "trigger": "Member’s query"
+              },
+              "timestamp": "2024-09-09 08:30"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. And can Sarah (my PA) coordinate the call?",
+              "decision": null,
+              "timestamp": "2024-09-09 08:32"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! I’ll send the details to Sarah. Here’s Carla’s tip: *‘Add avocado, spinach, and bananas to meals. Avoid processed foods.’* 👍",
+              "decision": null,
+              "timestamp": "2024-09-09 08:35"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Thanks, Ruby!",
+              "decision": null,
+              "timestamp": "2024-09-09 08:37"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! Rachel (physio) also noticed your grip strength improved. Want to add resistance bands to your routine?",
+              "decision": {
+                "action": "Suggest exercise update",
+                "reason": "Progress in fitness",
+                "trigger": "Test results"
+              },
+              "timestamp": "2024-09-09 08:40"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, but only if it fits my travel schedule. Can Sarah sync it?",
+              "decision": null,
+              "timestamp": "2024-09-09 08:42"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Absolutely! I’ll draft a plan for her. Also, your Omega-3 levels are borderline. Advik (scientist) recommends adding salmon twice a week. 🐟",
+              "decision": {
+                "action": "Adjust nutrition plan",
+                "reason": "Test results",
+                "trigger": "Member’s openness to changes"
+              },
+              "timestamp": "2024-09-09 08:45"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks for the detailed updates!",
+              "decision": null,
+              "timestamp": "2024-09-09 08:47"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Anytime! Neel (lead) will review your progress next month. Have a great day!",
+              "decision": null,
+              "timestamp": "2024-09-09 08:50"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Talk soon!",
+              "decision": null,
+              "timestamp": "2024-09-09 08:52"
+            }
+          ]
+        },
+        {
+          "month_index": 2,
+          "month": "September",
+          "theme": "Resistance & Reframing",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest blood reports. The LDL is still high. Any thoughts?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Dr. Warren just reviewed them. He’d like to discuss a few adjustments to your plan. Are you free for a quick call today?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:20"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but I’m in Jakarta this week. Can we do 7pm SG time?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:22"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! I’ll schedule it. Also, Carla (nutritionist) suggested adding more omega-3s. Want me to send her notes?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:25"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. And can Sarah sync this with my travel schedule?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:27"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Already on it! She’ll confirm by EOD. Also, your Garmin data shows sleep dips during travel. Want to tweak your pre-flight routine?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:30"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Good catch. Maybe magnesium before flights?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:32"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren agrees! I’ll add it to your travel kit. Anything else urgent before I prep for the call?",
+              "decision": null,
+              "timestamp": "2024-09-16 08:35"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Nope, that’s all. Thanks!",
+              "decision": null,
+              "timestamp": "2024-09-16 08:37"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! Talk soon. 👋",
+              "decision": null,
+              "timestamp": "2024-09-16 08:38"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is trending down—great progress! But the LDL needs focus. Let’s add a statin trial and double down on diet.",
+              "decision": null,
+              "timestamp": "2024-09-17 19:00"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Statins? Any side effects?",
+              "decision": null,
+              "timestamp": "2024-09-17 19:05"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Low-dose to start. Monitor for muscle soreness. We’ll recheck in 3 months.",
+              "decision": null,
+              "timestamp": "2024-09-17 19:10"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Carla’s notes on omega-3s?",
+              "decision": null,
+              "timestamp": "2024-09-17 19:12"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Add 2g/day of EPA/DHA (salmon, walnuts, or algae oil). Avoid fried fish—high in trans fats. 📊",
+              "decision": null,
+              "timestamp": "2024-09-17 19:15"
+            },
+            {
+              "id": "m_week3_16",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Carla. Will do. Let’s track this in 3 months.",
+              "decision": null,
+              "timestamp": "2024-09-17 19:18"
+            },
+            {
+              "id": "m_week3_17",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "I’ll note the follow-up! Your travel kit’s ready—magnesium, omega-3s, and statin samples included. Safe travels! ✈️",
+              "decision": null,
+              "timestamp": "2024-09-17 19:20"
+            },
+            {
+              "id": "m_week3_18",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Appreciate it, Ruby. Talk next week!",
+              "decision": null,
+              "timestamp": "2024-09-17 19:22"
+            }
+          ]
+        },
+        {
+          "month_index": 2,
+          "month": "September",
+          "theme": "Resistance & Reframing",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest test results. My BP is better but still not ideal. Any thoughts?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! Yes, we noticed that too. Dr. Warren wants to discuss it with you. Shall I schedule a call?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:20"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but I’m in Seoul this week. Can we do it tomorrow evening (Singapore time)?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:22"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! I’ll sync with Dr. Warren and confirm. Meanwhile, Carla (nutritionist) wants to tweak your diet plan. Should I forward her notes?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:25"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, send them over. Also, my grip strength is still low. Rachel mentioned resistance training?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:28"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Absolutely! Rachel’s suggesting 2x/week sessions. I’ll share her plan. Also, Advik flagged your Omega-3 levels—want to discuss?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:30"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Go ahead. But keep it short—I’ve got a client call in 5.",
+              "decision": null,
+              "timestamp": "2024-09-23 08:32"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Quick note: Your Omega-3 index is borderline. Suggest adding 2g/day of high-quality EPA/DHA. Data shows it helps with BP and cognition.",
+              "decision": null,
+              "timestamp": "2024-09-23 08:35"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Noted. Carla can add that to my supplement list. Thanks!",
+              "decision": null,
+              "timestamp": "2024-09-23 08:37"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Done! Dr. Warren’s confirmed for tomorrow 7:30pm. I’ll send a calendar invite via Sarah. Anything else urgent?",
+              "decision": null,
+              "timestamp": "2024-09-23 08:40"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "No, that’s all. Thanks, Ruby. 🙌",
+              "decision": null,
+              "timestamp": "2024-09-23 08:42"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! Let me know if Seoul’s time zone messes with your sleep—we can adjust the call.",
+              "decision": null,
+              "timestamp": "2024-09-23 08:45"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Talk soon!",
+              "decision": null,
+              "timestamp": "2024-09-23 08:47"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "P.S. Rachel’s resistance plan includes 10-min morning routines for travel days. Easy to fit in!",
+              "decision": null,
+              "timestamp": "2024-09-23 08:50"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. I’ll try it tomorrow. Thanks again!",
+              "decision": null,
+              "timestamp": "2024-09-23 08:52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 3,
+      "month": "October",
+      "theme": "The Relapse",
+      "weeks": [
+        {
+          "month_index": 3,
+          "month": "October",
+          "theme": "The Relapse",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! 👋 Just checking in—how’s your week been so far?",
+              "decision": null,
+              "timestamp": "2024-10-07 08:30"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, busy as usual. Just got back from Jakarta. Feeling a bit sluggish though.",
+              "decision": null,
+              "timestamp": "2024-10-07 09:15"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Got it! 😊 Let’s sync your health plan. Dr. Warren wants to review your BP trends—can we schedule a quick call?",
+              "decision": null,
+              "timestamp": "2024-10-07 09:20"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but next week. I’m swamped today.",
+              "decision": null,
+              "timestamp": "2024-10-07 09:25"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "No problem! I’ll coordinate with Sarah. Meanwhile, Carla (nutritionist) noticed your Omega-3 levels are still low. Want her to suggest some easy tweaks?",
+              "decision": null,
+              "timestamp": "2024-10-07 09:30"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yeah, send me her notes. I’ll try to add more salmon.",
+              "decision": null,
+              "timestamp": "2024-10-07 09:35"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! Also, Rachel (physio) saw your VO2 max dipped to 40. Want to add 1x HIIT session this week?",
+              "decision": null,
+              "timestamp": "2024-10-07 09:40"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but keep it short. 20 mins max.",
+              "decision": null,
+              "timestamp": "2024-10-07 09:45"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! I’ll update your plan and share it with Sarah. Let me know if you need adjustments. 🙌",
+              "decision": null,
+              "timestamp": "2024-10-07 09:50"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Ruby. Appreciate it.",
+              "decision": null,
+              "timestamp": "2024-10-07 09:55"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Here’s your Omega-3 plan: 2x salmon/week + 1000mg EPA/DHA supplement. Avoid fried fish. 🐟",
+              "decision": null,
+              "timestamp": "2024-10-08 14:30"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will try the supplement.",
+              "decision": null,
+              "timestamp": "2024-10-08 15:00"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Rohan, your HIIT plan is ready! 20-min sessions, 2x/week. Focus on hip stability too. 💪",
+              "decision": null,
+              "timestamp": "2024-10-09 07:30"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Rachel. I’ll start tomorrow.",
+              "decision": null,
+              "timestamp": "2024-10-09 08:00"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is trending up again (138/88). Let’s track it weekly. Avoid excess salt and prioritize sleep. 😴",
+              "decision": null,
+              "timestamp": "2024-10-10 10:00"
+            },
+            {
+              "id": "m_week1_16",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Noted. I’ll cut back on takeout.",
+              "decision": null,
+              "timestamp": "2024-10-10 10:15"
+            },
+            {
+              "id": "m_week1_17",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Great, Rohan! We’re here to support you. Let’s aim for consistency. 📊",
+              "decision": null,
+              "timestamp": "2024-10-10 10:30"
+            },
+            {
+              "id": "m_week1_18",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Neel. I’ll do my best.",
+              "decision": null,
+              "timestamp": "2024-10-10 10:45"
+            },
+            {
+              "id": "m_week1_19",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Quick reminder: Your BP log is due by Friday. Sarah can help if you’re short on time. 😊",
+              "decision": null,
+              "timestamp": "2024-10-11 08:00"
+            },
+            {
+              "id": "m_week1_20",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks!",
+              "decision": null,
+              "timestamp": "2024-10-11 08:15"
+            }
+          ]
+        },
+        {
+          "month_index": 3,
+          "month": "October",
+          "theme": "The Relapse",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest blood reports. The LDL is still high despite the diet changes. What’s the plan?",
+              "decision": null,
+              "timestamp": "2024-10-14 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! I’ve flagged this with Dr. Warren. He’d like to discuss a few adjustments. Can we schedule a quick call today?",
+              "decision": null,
+              "timestamp": "2024-10-14 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but I’m in Jakarta this week. Time zone difference is 1 hour behind. Can we do 7pm my time?",
+              "decision": null,
+              "timestamp": "2024-10-14 08:25"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "No problem! I’ll coordinate with Dr. Warren. Also, Carla (nutritionist) wants to tweak your meal plan. Should we loop her in?",
+              "decision": null,
+              "timestamp": "2024-10-14 08:30"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, but keep it concise. I’m swamped with client meetings.",
+              "decision": null,
+              "timestamp": "2024-10-14 08:35"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Understood. I’ll send a calendar invite with the agenda. Meanwhile, Advik (scientist) noticed your CRP is creeping up again. Any stress triggers?",
+              "decision": null,
+              "timestamp": "2024-10-14 08:40"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Work deadlines, travel fatigue. The usual.",
+              "decision": null,
+              "timestamp": "2024-10-14 08:45"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Got it. Rachel (physio) suggests adding 10-min recovery yoga post-run. Can Sarah (your PA) block that time?",
+              "decision": null,
+              "timestamp": "2024-10-14 08:50"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, but only if it’s high-intensity. I don’t have time for slow stretches.",
+              "decision": null,
+              "timestamp": "2024-10-14 08:55"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will share a 10-min HIIT yoga routine. Also, your Garmin data shows sleep dips during travel. Should we adjust your schedule?",
+              "decision": null,
+              "timestamp": "2024-10-14 09:00"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, but only if it’s minimal. I need to sleep through flights.",
+              "decision": null,
+              "timestamp": "2024-10-14 09:05"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted. I’ll send a sleep optimization guide for travel. Any other concerns?",
+              "decision": null,
+              "timestamp": "2024-10-14 09:10"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "No, that’s all for now. Thanks, Ruby.",
+              "decision": null,
+              "timestamp": "2024-10-14 09:15"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! I’ll follow up after the call with Dr. Warren. Have a good day!",
+              "decision": null,
+              "timestamp": "2024-10-14 09:20"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks!",
+              "decision": null,
+              "timestamp": "2024-10-14 09:25"
+            }
+          ]
+        },
+        {
+          "month_index": 3,
+          "month": "October",
+          "theme": "The Relapse",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest test results. My BP is up again. What’s going on?",
+              "decision": null,
+              "timestamp": "2024-10-21 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! I see that. Dr. Warren wants to discuss this. Shall I schedule a call?",
+              "decision": null,
+              "timestamp": "2024-10-21 08:20"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. ASAP. Traveling to London next week, so need to sort this before then.",
+              "decision": null,
+              "timestamp": "2024-10-21 08:22"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Done! Dr. Warren can speak at 4 PM today. I’ll sync with Sarah to block your calendar.",
+              "decision": null,
+              "timestamp": "2024-10-21 08:25"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, my runs feel harder lately. Is this linked?",
+              "decision": null,
+              "timestamp": "2024-10-21 08:27"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rachel (physio) noted your grip strength is still low. Might be related. She’ll join the call.",
+              "decision": null,
+              "timestamp": "2024-10-21 08:30"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Let’s tackle this holistically. Thanks.",
+              "decision": null,
+              "timestamp": "2024-10-21 08:32"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, BP spike is likely stress-related. Your CRP is up again—low-grade inflammation. Let’s adjust meds and add magnesium.",
+              "decision": {
+                "action": "Prescribe magnesium",
+                "reason": "Reduce inflammation",
+                "trigger": "Elevated CRP"
+              },
+              "timestamp": "2024-10-21 16:05"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Rachel",
+              "role": "physio",
+              "text": "Your hip stability is still weak. Let’s add 2x/week resistance training. No more skipping leg day!",
+              "decision": {
+                "action": "Increase resistance training",
+                "reason": "Improve hip stability",
+                "trigger": "FMS deficit"
+              },
+              "timestamp": "2024-10-21 16:08"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Understood. But how do I fit this in with travel? London next week.",
+              "decision": null,
+              "timestamp": "2024-10-21 16:10"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sarah’s already booked hotel gyms with resistance bands. I’ll send the plan to your Garmin.",
+              "decision": null,
+              "timestamp": "2024-10-21 16:12"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. What about diet? Carla mentioned Omega-3?",
+              "decision": null,
+              "timestamp": "2024-10-21 16:15"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Yes! Your Omega-3 index is borderline. I’ll send a supplement plan and meal tweaks for travel.",
+              "decision": {
+                "action": "Supplement Omega-3",
+                "reason": "Improve lipid profile",
+                "trigger": "Borderline Omega-3 index"
+              },
+              "timestamp": "2024-10-21 16:20"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, team. Let’s crush this. Will check in post-London.",
+              "decision": null,
+              "timestamp": "2024-10-21 16:22"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Great mindset, Rohan! We’ll monitor BP and VO2max closely. You’ve got this. 💪",
+              "decision": null,
+              "timestamp": "2024-10-21 16:25"
+            }
+          ]
+        },
+        {
+          "month_index": 3,
+          "month": "October",
+          "theme": "The Relapse",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest test results. My BP is up again. What’s going on?",
+              "decision": null,
+              "timestamp": "2024-10-28 07:30"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! 👋 I’ll connect you with Dr. Warren for a quick review. Meanwhile, any recent changes in your routine?",
+              "decision": null,
+              "timestamp": "2024-10-28 07:45"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yeah, I’ve been traveling more. Late dinners, less sleep. Maybe that’s it?",
+              "decision": null,
+              "timestamp": "2024-10-28 07:50"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is borderline hypertensive (138/88). The mild elevation in CRP and ApoB/ApoA ratio suggest metabolic stress. Let’s adjust your plan.",
+              "decision": null,
+              "timestamp": "2024-10-28 08:10"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. What’s the game plan?",
+              "decision": null,
+              "timestamp": "2024-10-28 08:15"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "We’ll focus on reducing saturated fats and adding more omega-3s. Also, let’s tackle that low vitamin D and zinc. I’ll send a revised meal plan via Sarah.",
+              "decision": null,
+              "timestamp": "2024-10-28 08:25"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Carla. What about exercise? I’ve been slacking.",
+              "decision": null,
+              "timestamp": "2024-10-28 08:30"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Rachel",
+              "role": "physio",
+              "text": "Let’s add 2x resistance training sessions/week. Your grip strength is still low—focus on compound lifts. And fix that hip stability!",
+              "decision": null,
+              "timestamp": "2024-10-28 08:40"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will Sarah sync this with my calendar?",
+              "decision": null,
+              "timestamp": "2024-10-28 08:45"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Already done! 🙌 I’ve blocked time for workouts and sent reminders for your supplements. Let me know if you need adjustments.",
+              "decision": null,
+              "timestamp": "2024-10-28 09:00"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, team. I’ll try harder this time. 💪",
+              "decision": null,
+              "timestamp": "2024-10-28 09:10"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Rohan, your progress so far is great. Small setbacks happen—we’ll pivot together. Let’s check in next week to see how you’re adapting.",
+              "decision": null,
+              "timestamp": "2024-10-28 09:20"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. I’ll keep you posted. 👍",
+              "decision": null,
+              "timestamp": "2024-10-28 09:25"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Oh, and Ruby—can you remind Sarah to book my annual screening for November?",
+              "decision": null,
+              "timestamp": "2024-10-28 18:30"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Done! Your November screening is confirmed. I’ll send details to Sarah. Hang in there—you’ve got this!",
+              "decision": null,
+              "timestamp": "2024-10-28 18:40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 4,
+      "month": "November",
+      "theme": "Breakthrough & Pushback",
+      "weeks": [
+        {
+          "month_index": 4,
+          "month": "November",
+          "theme": "Breakthrough & Pushback",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! 👋 Just wanted to check in after your recent tests. How are you feeling about the results?",
+              "decision": null,
+              "timestamp": "2024-11-04 08:30"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby. Honestly, mixed feelings. The BP is still a concern, but the cholesterol improvement is good.",
+              "decision": null,
+              "timestamp": "2024-11-04 09:15"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "I hear you. Dr. Warren and Carla are reviewing your full report. They’ll have a plan soon. Any specific concerns you’d like them to focus on?",
+              "decision": null,
+              "timestamp": "2024-11-04 09:20"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "The fatigue during runs is bothering me. And the CRP still being up. Need to tackle that.",
+              "decision": null,
+              "timestamp": "2024-11-04 09:30"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! I’ll flag that to the team. Also, your travel schedule is packed this month—any adjustments needed for your health routines?",
+              "decision": null,
+              "timestamp": "2024-11-04 09:45"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, I’m in Seoul next week. Need a plan for meals and workouts there.",
+              "decision": null,
+              "timestamp": "2024-11-04 10:00"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will coordinate with Carla for Seoul-friendly meal options. Rachel will tweak your exercise plan for jet lag. Anything else?",
+              "decision": null,
+              "timestamp": "2024-11-04 10:15"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Ruby. Also, the BP meds—any updates from Dr. Warren?",
+              "decision": null,
+              "timestamp": "2024-11-04 10:30"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "He’s reviewing your latest readings. I’ll get him to message you directly by EOD. Anything urgent?",
+              "decision": null,
+              "timestamp": "2024-11-04 10:45"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "No, not urgent. Just want to align on next steps.",
+              "decision": null,
+              "timestamp": "2024-11-04 11:00"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Understood! I’ll also check in with Sarah to sync on your travel logistics. Let me know if you need anything else.",
+              "decision": null,
+              "timestamp": "2024-11-04 11:15"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is trending better but still needs attention. The CRP is down slightly but still elevated. Let’s adjust your magnesium and add a low-dose aspirin. Monitor BP daily.",
+              "decision": {
+                "action": "Prescribe magnesium and aspirin",
+                "reason": "To manage inflammation and BP",
+                "trigger": "Elevated CRP and BP"
+              },
+              "timestamp": "2024-11-04 17:30"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Dr. Warren. Will start the new meds today. Any diet tweaks to pair with this?",
+              "decision": null,
+              "timestamp": "2024-11-04 18:00"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Yes—reduce processed foods, add more magnesium-rich foods (spinach, nuts), and keep up the omega-3s. I’ll send a Seoul meal guide via Sarah.",
+              "decision": null,
+              "timestamp": "2024-11-04 19:00"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect, thanks both. I’ll keep you posted on progress. 👍",
+              "decision": null,
+              "timestamp": "2024-11-04 19:30"
+            },
+            {
+              "id": "m_week1_16",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Great start, Rohan! Remember, small steps lead to big changes. We’re here to support you. 💪",
+              "decision": null,
+              "timestamp": "2024-11-04 20:00"
+            }
+          ]
+        },
+        {
+          "month_index": 4,
+          "month": "November",
+          "theme": "Breakthrough & Pushback",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the test results. The BP improvement is great, but the cholesterol still worries me.",
+              "decision": null,
+              "timestamp": "2024-11-18 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! 🌞 Dr. Warren will review your lipid panel in detail. Meanwhile, Carla has some dietary tweaks to discuss.",
+              "decision": null,
+              "timestamp": "2024-11-18 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, the grip strength test was lower than expected. Any thoughts?",
+              "decision": null,
+              "timestamp": "2024-11-18 08:22"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Hi Rohan! That’s common with desk jobs. Let’s add resistance bands to your morning routine. 10 mins/day, no equipment needed. 💪",
+              "decision": null,
+              "timestamp": "2024-11-18 09:10"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will try. Also, the Vitamin D is still low. Should I increase the dose?",
+              "decision": null,
+              "timestamp": "2024-11-18 09:15"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Let’s wait for the next blood test in 3 months. For now, add more fatty fish (salmon, mackerel) and consider a small Omega-3 boost. 🐟",
+              "decision": null,
+              "timestamp": "2024-11-18 10:05"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Understood. Traveling to Seoul next week—any adjustments for jet lag?",
+              "decision": null,
+              "timestamp": "2024-11-18 10:30"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sarah’s already synced your schedule. Advik will send a sleep optimization plan. Focus on light exposure and hydration. ✈️",
+              "decision": null,
+              "timestamp": "2024-11-18 10:35"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Pro tip: Use blue-light glasses 2 hours before bed in Seoul. Your Garmin data shows disrupted sleep post-travel. 📉",
+              "decision": null,
+              "timestamp": "2024-11-18 11:20"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Noted. Any updates on the coronary calcium score?",
+              "decision": null,
+              "timestamp": "2024-11-18 14:45"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Stable at 25. The mild plaque is expected for your age. We’ll monitor annually. Your LDL reduction is excellent progress! 📊",
+              "decision": null,
+              "timestamp": "2024-11-18 15:00"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great. What about the CRP? It was elevated last time.",
+              "decision": null,
+              "timestamp": "2024-11-18 15:10"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Down to 1.2 mg/L! That’s normal. The anti-inflammatory diet is working. Keep up the turmeric and walnuts. 🌰",
+              "decision": null,
+              "timestamp": "2024-11-18 16:00"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Let’s schedule a follow-up after Seoul. Thanks, team!",
+              "decision": null,
+              "timestamp": "2024-11-18 16:30"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! Sarah will confirm the date. Keep the momentum going—you’re crushing it. 🙌",
+              "decision": null,
+              "timestamp": "2024-11-18 16:35"
+            }
+          ]
+        },
+        {
+          "month_index": 4,
+          "month": "November",
+          "theme": "Breakthrough & Pushback",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Ruby, saw the latest blood reports. BP is still a bit high. Any thoughts?",
+              "decision": null,
+              "timestamp": "2024-11-18 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Dr. Warren reviewed your results. Your BP is improving but still needs attention. Let’s discuss adjustments. 📊",
+              "decision": null,
+              "timestamp": "2024-11-18 08:30"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Okay, what’s the plan? I’ve been running 3x a week but fatigue is an issue.",
+              "decision": null,
+              "timestamp": "2024-11-18 08:35"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your coronary calcium score is stable but we need to address inflammation. Let’s add omega-3s and reduce saturated fats further.",
+              "decision": null,
+              "timestamp": "2024-11-18 09:00"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Carla, can you suggest meal tweaks? I’m tired of salads. 😅",
+              "decision": null,
+              "timestamp": "2024-11-18 09:10"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "How about grilled salmon with roasted veggies? High omega-3, low saturated fat. Or try lentil curry—great protein and fiber!",
+              "decision": null,
+              "timestamp": "2024-11-18 09:20"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Salmon sounds good. But my cook says it’s hard to find fresh here. Any alternatives?",
+              "decision": null,
+              "timestamp": "2024-11-18 09:25"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Frozen wild-caught salmon works too! Just thaw it properly. Or try sardines—cheap, packed with omega-3s.",
+              "decision": null,
+              "timestamp": "2024-11-18 09:30"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Okay, I’ll try sardines. What about exercise? Rachel, any updates?",
+              "decision": null,
+              "timestamp": "2024-11-18 09:40"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Your VO2 max is improving! But let’s add resistance training 2x/week. Fatigue might be from overdoing cardio.",
+              "decision": null,
+              "timestamp": "2024-11-18 10:00"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Resistance training? I don’t have time for the gym. Any home options?",
+              "decision": null,
+              "timestamp": "2024-11-18 10:10"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Bodyweight exercises! Push-ups, squats, lunges. 20 mins, 3x/week. I’ll send a video guide.",
+              "decision": null,
+              "timestamp": "2024-11-18 10:15"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Rachel. Will try. Advik, any data insights on my progress?",
+              "decision": null,
+              "timestamp": "2024-11-18 10:30"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Your CRP dropped from 3.5 to 1.2! That’s great. But ApoB/ApoA ratio is still high. Keep up the omega-3s.",
+              "decision": null,
+              "timestamp": "2024-11-18 11:00"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Neel, overall, am I on track for my goals?",
+              "decision": null,
+              "timestamp": "2024-11-18 11:15"
+            },
+            {
+              "id": "m_week3_16",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Absolutely! Your biological age is now matching your chronological age. Keep it up. 🙌",
+              "decision": null,
+              "timestamp": "2024-11-18 11:30"
+            },
+            {
+              "id": "m_week3_17",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, team. I’ll update after next week’s run. 👍",
+              "decision": null,
+              "timestamp": "2024-11-18 11:45"
+            }
+          ]
+        },
+        {
+          "month_index": 4,
+          "month": "November",
+          "theme": "Breakthrough & Pushback",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, saw the latest test results. The BP and cholesterol improvements are great, but the dizziness is concerning.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! 😊 I’ll connect you with Dr. Warren to review the dizziness. Meanwhile, any recent changes in your routine?",
+              "decision": null,
+              "timestamp": "2024-11-25 08:20"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Just increased my running frequency. Maybe that’s it?",
+              "decision": null,
+              "timestamp": "2024-11-25 08:22"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted. Dr. Warren will check your Garmin data for HR trends. In the meantime, hydrate well and monitor episodes.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:25"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Also, the CRP was elevated last time. Any updates?",
+              "decision": null,
+              "timestamp": "2024-11-25 08:28"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "CRP is now normal (1.2 mg/L)! 👍 That’s a strong sign of reduced inflammation. Carla will share dietary tweaks to maintain this.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:30"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great news. Let’s schedule a call with Carla this week?",
+              "decision": null,
+              "timestamp": "2024-11-25 08:32"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sarah just confirmed your availability on Wednesday 3 PM. I’ll book it!",
+              "decision": null,
+              "timestamp": "2024-11-25 08:35"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Also, the grip strength was low. Rachel mentioned resistance training?",
+              "decision": null,
+              "timestamp": "2024-11-25 08:38"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Yes! Rachel suggests 2x/week sessions. I’ll sync with your travel calendar and share a plan.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:40"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. One more thing—Vitamin D is still low. Should I increase the dose?",
+              "decision": null,
+              "timestamp": "2024-11-25 08:42"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren will confirm, but likely yes. Advik is analyzing your methylation drift—might link to this.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:45"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Let’s circle back after the call with Carla.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:48"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! 🙌 And don’t forget your Garmin data sync—it’s key for tracking progress.",
+              "decision": null,
+              "timestamp": "2024-11-25 08:50"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will sync tonight. Thanks, Ruby!",
+              "decision": null,
+              "timestamp": "2024-11-25 08:52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 5,
+      "month": "December",
+      "theme": "The Travel Test",
+      "weeks": [
+        {
+          "month_index": 5,
+          "month": "December",
+          "theme": "The Travel Test",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Just checking in before your Seoul trip next week. Any last-minute health prep needed? 😊",
+              "decision": null,
+              "timestamp": "2024-12-02 08:15"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, all good. Just need to pack my Garmin and supplements. Any tips for jet lag?",
+              "decision": null,
+              "timestamp": "2024-12-02 08:30"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Great! For jet lag: hydrate well, adjust sleep schedule 2 days before, and avoid alcohol on the flight. I’ll share a travel-friendly meal plan from Carla too.",
+              "decision": null,
+              "timestamp": "2024-12-02 08:45"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks! Also, my BP has been stable. Should I keep monitoring daily while traveling?",
+              "decision": null,
+              "timestamp": "2024-12-02 09:00"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Yes, Rohan. Morning and evening readings. Avoid caffeine/alcohol 30 mins before. Log them in your app for review.",
+              "decision": null,
+              "timestamp": "2024-12-02 10:15"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will do. Also, my CRP was down last test—any food tweaks to keep it low?",
+              "decision": null,
+              "timestamp": "2024-12-02 10:30"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Yes! Continue omega-3s (salmon, walnuts) and turmeric. Avoid processed foods and sugary drinks. I’ll send a Seoul-friendly anti-inflammatory meal guide.",
+              "decision": null,
+              "timestamp": "2024-12-02 11:00"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Thanks, Carla! Any supplements to prioritize while traveling?",
+              "decision": null,
+              "timestamp": "2024-12-02 11:15"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Magnesium glycinate for sleep, Vitamin D, and probiotics. Pack them in your carry-on!",
+              "decision": null,
+              "timestamp": "2024-12-02 11:30"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Also, don’t forget your resistance bands! Rachel’s exercises are perfect for hotel workouts. 💪",
+              "decision": null,
+              "timestamp": "2024-12-02 12:00"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Any updates on my VO2 max progress?",
+              "decision": null,
+              "timestamp": "2024-12-02 14:00"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Great question! It’s improved to 45—above average for your age. Keep up the resistance training!",
+              "decision": null,
+              "timestamp": "2024-12-02 15:00"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Awesome! Will add more squats and push-ups. Thanks, team! 🙌",
+              "decision": null,
+              "timestamp": "2024-12-02 15:15"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Neel",
+              "role": "lead",
+              "text": "You’re crushing it, Rohan! Small steps, big progress. Safe travels—we’ll check in next week!",
+              "decision": null,
+              "timestamp": "2024-12-02 16:00"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Neel! Will keep you posted. Have a great week! ✈️",
+              "decision": null,
+              "timestamp": "2024-12-02 16:15"
+            }
+          ]
+        },
+        {
+          "month_index": 5,
+          "month": "December",
+          "theme": "The Travel Test",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Ruby, just back from Seoul. BP feels stable but still getting occasional dizziness. Any thoughts?",
+              "decision": null,
+              "timestamp": "2024-12-10 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! 👋 I’ll flag this to Dr. Warren. Meanwhile, have you noticed any patterns with the dizziness?",
+              "decision": null,
+              "timestamp": "2024-12-10 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Mostly after long meetings or flights. Maybe dehydration?",
+              "decision": null,
+              "timestamp": "2024-12-10 08:22"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Dr. Warren will review your latest BP logs and travel schedule. I’ll also sync with Carla on hydration tips for travel. 💧",
+              "decision": null,
+              "timestamp": "2024-12-10 08:25"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP trends are stable (128/82 avg), but let’s monitor for post-flight spikes. Hydration + electrolytes during travel. I’ll check your Garmin HRV data too. 📊",
+              "decision": null,
+              "timestamp": "2024-12-10 10:30"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Warren. HRV has been dipping after flights. Should I adjust my morning routine?",
+              "decision": null,
+              "timestamp": "2024-12-10 10:35"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Try adding 5 mins of deep breathing + neck stretches post-flight. Also, your hip stability is improving—keep up the resistance training! 💪",
+              "decision": null,
+              "timestamp": "2024-12-10 11:10"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Any updates on the Omega-3 levels? Still borderline?",
+              "decision": null,
+              "timestamp": "2024-12-10 11:15"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Yes, your Omega-3 index is 6.5% (target: 8%). I’ll adjust your supplement dose and suggest more fatty fish in your travel meals. 🐟",
+              "decision": null,
+              "timestamp": "2024-12-10 11:20"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Sarah will coordinate the supplements. Any other travel hacks?",
+              "decision": null,
+              "timestamp": "2024-12-10 11:22"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sarah’s added compression socks and a travel-friendly electrolyte mix to your next shipment. Also, your Oura ring is arriving Friday! 🎁",
+              "decision": null,
+              "timestamp": "2024-12-10 11:25"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great. Let’s sync next week after I’ve used the Oura for a few days. Thanks all!",
+              "decision": null,
+              "timestamp": "2024-12-10 11:30"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Excellent progress, Rohan. Your biological age is now aligned with chronological—great work! Let’s keep optimizing. 🙌",
+              "decision": null,
+              "timestamp": "2024-12-10 11:35"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Neel. Feeling more energized. Will focus on consistency now.",
+              "decision": null,
+              "timestamp": "2024-12-10 11:40"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "That’s the spirit! I’ll schedule a quick check-in with Advik to review your Oura data next week. Safe travels to Jakarta! ✈️",
+              "decision": null,
+              "timestamp": "2024-12-10 11:45"
+            }
+          ]
+        },
+        {
+          "month_index": 5,
+          "month": "December",
+          "theme": "The Travel Test",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! 🌞 Just checking in—how was your travel to Seoul this week?",
+              "decision": null,
+              "timestamp": "2024-12-16 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Morning Ruby. Long flight but managed to squeeze in a 20-min workout at the hotel gym. Still adjusting to the time zone though.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:20"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Great to hear you kept up the routine! 👍 How’s your sleep been? Remember, jet lag can take a toll on recovery.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:25"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Not great, honestly. Woke up at 3am twice. Tried the melatonin Sarah recommended but still groggy.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:30"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "I’ll sync with Dr. Warren about adjusting your sleep protocol. Maybe we can tweak the timing or dosage. Also, Advik noticed your HRV dipped last night—likely due to travel stress.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:35"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Ruby. Also, my BP’s been a bit high since I landed. Maybe the hotel food isn’t helping.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:40"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Carla’s been tracking your diet—she’ll send over some travel-friendly meal options for Seoul. And Dr. Warren wants to check your BP trends when you’re back.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:45"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. I’ll try to stick to the plan. Heading into a big meeting now—will check in later.",
+              "decision": null,
+              "timestamp": "2024-12-16 08:50"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Just sent you a list of low-sodium, high-fiber options in Seoul. Avoid the kimchi if your BP’s spiking—it’s surprisingly high in sodium. 😊",
+              "decision": null,
+              "timestamp": "2024-12-17 12:10"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Carla. Already tried the bibimbap you recommended—much better than the hotel buffet!",
+              "decision": null,
+              "timestamp": "2024-12-17 12:15"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Great to see your sleep data improving! Your HRV’s back to baseline. Keep up the hydration—Seoul’s dry air can dehydrate you quickly.",
+              "decision": null,
+              "timestamp": "2024-12-18 14:30"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Also, my grip strength’s been better since the resistance bands you suggested. Rachel’s plan is working!",
+              "decision": null,
+              "timestamp": "2024-12-18 14:35"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Awesome! Let’s add 10 mins of mobility drills to your routine when you’re back. Your hip stability’s improved, but we can optimize further.",
+              "decision": null,
+              "timestamp": "2024-12-18 14:40"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Quick reminder: Your next full-body scan is in January. We’ll schedule it around your travel. Neel wants to review your progress so far—any questions before then?",
+              "decision": null,
+              "timestamp": "2024-12-19 09:00"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Nope, all good. Thanks for keeping everything on track! 🙌",
+              "decision": null,
+              "timestamp": "2024-12-19 09:05"
+            }
+          ]
+        },
+        {
+          "month_index": 5,
+          "month": "December",
+          "theme": "The Travel Test",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just back from Jakarta. My BP has been creeping up again. Need to check in with Dr. Warren?",
+              "decision": null,
+              "timestamp": "2024-12-23 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! 👋 Good to hear from you. I’ll sync with Dr. Warren and schedule a virtual consult. Any specific symptoms?",
+              "decision": null,
+              "timestamp": "2024-12-23 08:20"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Mostly after long flights. Feels like my old BP numbers. Also, my Garmin shows HRV dipping lately.",
+              "decision": null,
+              "timestamp": "2024-12-23 08:25"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted. I’ll flag this for Dr. Warren. Also, Carla (nutritionist) wants to review your travel meal plan—any dietary slips?",
+              "decision": null,
+              "timestamp": "2024-12-23 08:30"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yeah, indulged in Jakarta’s street food. But I’ve been strict with supplements—Vit D and Omega-3.",
+              "decision": null,
+              "timestamp": "2024-12-23 08:35"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Got it. Carla will tweak your plan for travel weeks. Meanwhile, Rachel (physio) suggests adding 10-min mobility drills post-flight. Deal?",
+              "decision": null,
+              "timestamp": "2024-12-23 08:40"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. Can Sarah sync my calendar? I’m in Seoul next week.",
+              "decision": null,
+              "timestamp": "2024-12-23 08:45"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! 🙌 Also, Advik (scientist) wants to analyze your Garmin data. Can you share the last 30 days?",
+              "decision": null,
+              "timestamp": "2024-12-23 08:50"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, I’ll enable sharing. Any updates on my biological age? Last report showed improvement.",
+              "decision": null,
+              "timestamp": "2024-12-23 09:00"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren will review your latest labs. But your February report showed biological age matching chronological—great progress!",
+              "decision": null,
+              "timestamp": "2024-12-23 09:05"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "That’s a relief. Let’s keep it that way. Any adjustments for the holiday season?",
+              "decision": null,
+              "timestamp": "2024-12-23 09:10"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Carla suggests prioritizing lean proteins and fiber to offset holiday treats. And Rachel recommends 2x weekly yoga for stress.",
+              "decision": null,
+              "timestamp": "2024-12-23 09:15"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Noted. Will Sarah send the updated meal plan?",
+              "decision": null,
+              "timestamp": "2024-12-23 09:20"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Already on it! 📊 Also, Neel (lead) wants to congratulate you—your CRP dropped to normal! Keep it up!",
+              "decision": null,
+              "timestamp": "2024-12-23 09:25"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, team! Will check in after Seoul. 👋",
+              "decision": null,
+              "timestamp": "2024-12-23 09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 6,
+      "month": "January",
+      "theme": "The Diagnostic Reset",
+      "weeks": [
+        {
+          "month_index": 6,
+          "month": "January",
+          "theme": "The Diagnostic Reset",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! 🌞 Ready for your January reset? Let’s dive into your latest test results and plan the next steps.",
+              "decision": null,
+              "timestamp": "2025-01-06 07:30"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Morning Ruby! Yes, looking forward to it. Just back from Seoul—jet lagged but ready. What’s the plan?",
+              "decision": null,
+              "timestamp": "2025-01-06 07:35"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Great! Dr. Warren will review your cardiovascular health first. Then Carla will cover nutrition adjustments. Let’s start with Dr. Warren’s insights.",
+              "decision": null,
+              "timestamp": "2025-01-06 07:40"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your BP is now 128/82—excellent progress! But your coronary calcium score is stable at 20. Let’s monitor it closely.",
+              "decision": null,
+              "timestamp": "2025-01-06 07:45"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "That’s good news! What’s the next step for the score?",
+              "decision": null,
+              "timestamp": "2025-01-06 07:50"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Continue with your current plan: omega-3s, resistance training, and BP monitoring. We’ll retest in 6 months.",
+              "decision": null,
+              "timestamp": "2025-01-06 07:55"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. What about the mild atherosclerosis?",
+              "decision": null,
+              "timestamp": "2025-01-06 08:00"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "It’s early-stage. Focus on reducing LDL (now 118) further and improving HDL (50). Carla will help with diet tweaks.",
+              "decision": null,
+              "timestamp": "2025-01-06 08:05"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Rohan, your Omega-3 index is borderline. Let’s add more fatty fish (salmon, mackerel) and consider a higher-dose supplement.",
+              "decision": null,
+              "timestamp": "2025-01-06 14:00"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Understood. Any specific brands for the supplement?",
+              "decision": null,
+              "timestamp": "2025-01-06 14:05"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "I’ll send you a list of high-quality options. Also, let’s reduce processed foods—especially during travel.",
+              "decision": null,
+              "timestamp": "2025-01-06 14:10"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Your VO2 max is now 45—great job! But your grip strength is still below average. Let’s add 10 mins of grip exercises daily.",
+              "decision": null,
+              "timestamp": "2025-01-07 08:00"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Any recommendations for travel-friendly grip tools?",
+              "decision": null,
+              "timestamp": "2025-01-07 08:05"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "A simple stress ball or resistance bands work well. I’ll send you a routine.",
+              "decision": null,
+              "timestamp": "2025-01-07 08:10"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Rohan, your biological age is now aligned with your chronological age—huge milestone! Keep up the discipline. 🙌",
+              "decision": null,
+              "timestamp": "2025-01-07 16:00"
+            },
+            {
+              "id": "m_week1_16",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Neel! Feels good to see the progress. Let’s keep it going!",
+              "decision": null,
+              "timestamp": "2025-01-07 16:05"
+            },
+            {
+              "id": "m_week1_17",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! I’ll schedule a follow-up with Dr. Warren in 3 months. Any questions before I wrap up?",
+              "decision": null,
+              "timestamp": "2025-01-07 16:10"
+            },
+            {
+              "id": "m_week1_18",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Nope, all clear! Thanks, team. Talk soon.",
+              "decision": null,
+              "timestamp": "2025-01-07 16:15"
+            }
+          ]
+        },
+        {
+          "month_index": 6,
+          "month": "January",
+          "theme": "The Diagnostic Reset",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hi Ruby, just saw the latest blood reports. My BP is better but still not ideal. Any thoughts?",
+              "decision": null,
+              "timestamp": "2025-01-13 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! Yes, we see the improvement. Dr. Warren wants to discuss this in your upcoming call. Shall I book it for tomorrow?",
+              "decision": {
+                "action": "Schedule doctor call",
+                "reason": "Follow-up on BP trends",
+                "trigger": "Member inquiry"
+              },
+              "timestamp": "2025-01-13 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. Also, my Garmin shows my HRV is lower than usual. Should I be worried?",
+              "decision": null,
+              "timestamp": "2025-01-13 08:22"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Not necessarily. Advik is analyzing your data. He’ll flag anything concerning. Meanwhile, have you been sleeping well?",
+              "decision": {
+                "action": "Monitor HRV trends",
+                "reason": "Proactive health tracking",
+                "trigger": "Member concern"
+              },
+              "timestamp": "2025-01-13 08:25"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Not great. Travel fatigue maybe. Will try to adjust my schedule.",
+              "decision": null,
+              "timestamp": "2025-01-13 08:28"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Understood. Carla suggests adding magnesium-rich foods to help with sleep. I’ll send her recommendations to Sarah.",
+              "decision": {
+                "action": "Share nutrition tips",
+                "reason": "Support sleep quality",
+                "trigger": "Member feedback"
+              },
+              "timestamp": "2025-01-13 08:30"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, my grip strength was low in the last test. Any exercises to improve that?",
+              "decision": null,
+              "timestamp": "2025-01-13 08:35"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Hi Rohan! Yes, we can add resistance band exercises 3x/week. 10 mins daily will help. I’ll send a video demo to your app.",
+              "decision": {
+                "action": "Add grip-strength routine",
+                "reason": "Address physical fitness gap",
+                "trigger": "Member inquiry"
+              },
+              "timestamp": "2025-01-13 09:10"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great, thanks Rachel. Any updates on the Oura ring trial?",
+              "decision": null,
+              "timestamp": "2025-01-13 09:15"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "It’s arriving this week! Neel will help set it up. Should integrate well with your Garmin data.",
+              "decision": {
+                "action": "Coordinate wearable setup",
+                "reason": "Enhance health tracking",
+                "trigger": "Member follow-up"
+              },
+              "timestamp": "2025-01-13 09:20"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Let me know when it’s ready. Traveling to Seoul next week—any adjustments needed?",
+              "decision": null,
+              "timestamp": "2025-01-13 09:25"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sarah’s shared your itinerary. We’ll adjust your workout plan for jet lag. Carla will prep meal options for your hotel.",
+              "decision": {
+                "action": "Adjust travel plan",
+                "reason": "Maintain routine during travel",
+                "trigger": "Member notification"
+              },
+              "timestamp": "2025-01-13 09:30"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Appreciate it. One more thing—my cholesterol is still high. Any new supplements?",
+              "decision": null,
+              "timestamp": "2025-01-13 09:35"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! We’re adding plant sterols and omega-3 algae oil to your protocol. Let’s review in 3 months.",
+              "decision": {
+                "action": "Update supplement plan",
+                "reason": "Target lipid profile",
+                "trigger": "Member inquiry"
+              },
+              "timestamp": "2025-01-13 10:00"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. Thanks everyone! Will check in after Seoul.",
+              "decision": null,
+              "timestamp": "2025-01-13 10:05"
+            }
+          ]
+        },
+        {
+          "month_index": 6,
+          "month": "January",
+          "theme": "The Diagnostic Reset",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hi Ruby, any updates on my latest test results?",
+              "decision": null,
+              "timestamp": "2025-01-15 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! 😊 Dr. Warren is reviewing your data now. He’ll share insights by EOD. Meanwhile, your vitamin D levels are looking better!",
+              "decision": null,
+              "timestamp": "2025-01-15 08:20"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great to hear. Any action items from the bloodwork?",
+              "decision": null,
+              "timestamp": "2025-01-15 08:22"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren suggests continuing your current diet but adding more omega-3s. Carla (nutritionist) will message you with meal tweaks. 📊",
+              "decision": null,
+              "timestamp": "2025-01-15 08:25"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Noted. What about the BP? Still trending down?",
+              "decision": null,
+              "timestamp": "2025-01-15 08:27"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Yes! From 138/88 to 128/82—great progress. Dr. Warren says keep up the exercise and stress management. 🙌",
+              "decision": null,
+              "timestamp": "2025-01-15 08:30"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Let me know if Dr. Warren needs anything else.",
+              "decision": null,
+              "timestamp": "2025-01-15 08:32"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! Also, Rachel (physio) suggests adding 10 mins of mobility work post-run to improve hip stability. Your Garmin data shows tightness there.",
+              "decision": null,
+              "timestamp": "2025-01-15 08:35"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. I’ll try it this week. Thanks, Ruby!",
+              "decision": null,
+              "timestamp": "2025-01-15 08:37"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! To boost omega-3s, try adding salmon 2x/week and chia seeds to your smoothies. Avoid fried fish—opt for grilled or baked. 🐟",
+              "decision": null,
+              "timestamp": "2025-01-16 10:10"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Carla. Will Sarah help adjust my grocery list?",
+              "decision": null,
+              "timestamp": "2025-01-16 10:15"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Already done! Sarah’s got the updates. Also, your cook can prep the salmon in advance—just reheat gently. 👍",
+              "decision": null,
+              "timestamp": "2025-01-16 10:20"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Any other tweaks?",
+              "decision": null,
+              "timestamp": "2025-01-16 10:22"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Just reduce dairy intake slightly—your lactose intolerance might explain occasional bloating. Probiotic yogurt is okay if tolerated.",
+              "decision": null,
+              "timestamp": "2025-01-16 10:25"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Noted. Thanks for the detailed plan!",
+              "decision": null,
+              "timestamp": "2025-01-16 10:27"
+            },
+            {
+              "id": "m_week3_16",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your progress is excellent. Keep up the work! Your next full checkup is in April. Until then, monitor BP weekly and share Garmin data monthly. 👨‍⚕️",
+              "decision": null,
+              "timestamp": "2025-01-17 14:30"
+            },
+            {
+              "id": "m_week3_17",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do, Dr. Warren. Thanks for the guidance!",
+              "decision": null,
+              "timestamp": "2025-01-17 14:35"
+            },
+            {
+              "id": "m_week3_18",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "P.S. Your biological age is now matching your chronological age—great milestone! 🎉",
+              "decision": null,
+              "timestamp": "2025-01-18 09:00"
+            }
+          ]
+        },
+        {
+          "month_index": 6,
+          "month": "January",
+          "theme": "The Diagnostic Reset",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Ruby, can we review my latest test results? I want to understand the progress since last year.",
+              "decision": null,
+              "timestamp": "2025-01-27 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! I’ve pulled your reports. Dr. Warren and Carla are available for a virtual review this week. Would 4pm tomorrow work?",
+              "decision": {
+                "action": "Schedule review",
+                "reason": "Member requested progress update",
+                "trigger": "Member inquiry"
+              },
+              "timestamp": "2025-01-27 08:30"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, 4pm is fine. Sarah will block my calendar. Send me the link.",
+              "decision": null,
+              "timestamp": "2025-01-27 08:35"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! I’ll also attach the summary for your review before the call. 📊",
+              "decision": null,
+              "timestamp": "2025-01-27 08:40"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, my BP has been stable since the diet changes. Any thoughts on the dizziness?",
+              "decision": null,
+              "timestamp": "2025-01-27 08:45"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren will address that. Your reports show improved vascular health, but we’ll check hydration and electrolytes too.",
+              "decision": null,
+              "timestamp": "2025-01-27 08:50"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Also, my grip strength is better—thanks to the resistance training?",
+              "decision": null,
+              "timestamp": "2025-01-27 08:55"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Exactly! Rachel will be pleased. She’ll suggest tweaks to your routine in the call. 🙌",
+              "decision": null,
+              "timestamp": "2025-01-27 09:00"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. See you all tomorrow.",
+              "decision": null,
+              "timestamp": "2025-01-27 09:05"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Looking forward to it! Let me know if you need anything else before then.",
+              "decision": null,
+              "timestamp": "2025-01-27 09:10"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Ruby, quick question—should I continue the Omega-3 supplements?",
+              "decision": null,
+              "timestamp": "2025-01-28 14:30"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Carla will cover this in the call, but your levels are borderline. We’ll discuss adjustments.",
+              "decision": null,
+              "timestamp": "2025-01-28 14:35"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Understood. Thanks!",
+              "decision": null,
+              "timestamp": "2025-01-28 14:40"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! Remember, the call is at 4pm. I’ll send the link shortly.",
+              "decision": null,
+              "timestamp": "2025-01-28 14:45"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. See you then.",
+              "decision": null,
+              "timestamp": "2025-01-28 14:50"
+            },
+            {
+              "id": "m_week4_16",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Great! Let me know if you need anything else. 😊",
+              "decision": null,
+              "timestamp": "2025-01-28 14:55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 7,
+      "month": "February",
+      "theme": "The Plateau",
+      "weeks": [
+        {
+          "month_index": 7,
+          "month": "February",
+          "theme": "The Plateau",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Morning Ruby! Just saw the latest reports. BP looks good but LDL still needs work. Any updates from Carla?",
+              "decision": null,
+              "timestamp": "2025-02-03 07:15"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! Yes, Carla’s reviewing your latest lipid panel. She’ll share her recommendations shortly. 👍",
+              "decision": null,
+              "timestamp": "2025-02-03 07:20"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Your LDL is down but still needs to drop below 100. Let’s add more soluble fiber—oats, flaxseeds, and beans. Avoid trans fats completely.",
+              "decision": null,
+              "timestamp": "2025-02-03 08:30"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Also, your Omega-3 index is still borderline. Let’s increase fatty fish to 3x/week and consider a higher-dose supplement. I’ll send options to Sarah.",
+              "decision": null,
+              "timestamp": "2025-02-03 08:32"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will ask Sarah to adjust my meal plan. Any specific brands for the supplement?",
+              "decision": null,
+              "timestamp": "2025-02-03 09:10"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Yes, look for pharmaceutical-grade omega-3s (EPA/DHA 1800mg combined). I’ll send a list of trusted brands. Avoid cheap ones—they’re often oxidized.",
+              "decision": null,
+              "timestamp": "2025-02-03 09:15"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Hi Rohan! Your grip strength is improving (28kg now). Let’s add 10 mins of resistance band workouts 3x/week. I’ll send a video demo.",
+              "decision": null,
+              "timestamp": "2025-02-03 10:45"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Rachel. I’ll fit it in before my morning runs. Any adjustments for my upcoming Jakarta trip?",
+              "decision": null,
+              "timestamp": "2025-02-03 11:00"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sarah’s shared your itinerary. Carla’s prepping meal options for your hotel, and Rachel will adjust your workout plan for jet lag. All set! 🙌",
+              "decision": null,
+              "timestamp": "2025-02-03 11:10"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, your coronary calcium score is stable at 20—great news! Keep up the resistance training and BP monitoring. Next full checkup in April. 👨‍⚕️",
+              "decision": null,
+              "timestamp": "2025-02-04 14:30"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Dr. Warren. Any concerns about the occasional dizziness I mentioned?",
+              "decision": null,
+              "timestamp": "2025-02-04 15:00"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Likely due to dehydration or low blood sugar. Monitor your hydration and eat balanced meals. If it persists, we’ll run further tests.",
+              "decision": null,
+              "timestamp": "2025-02-04 15:10"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Rohan, your biological age is now aligned with your chronological age—huge milestone! Keep up the discipline. 🙌",
+              "decision": null,
+              "timestamp": "2025-02-05 08:00"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks Neel! This is exactly why I started this journey. Will keep pushing.",
+              "decision": null,
+              "timestamp": "2025-02-05 08:10"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Great attitude, Rohan! Advik’s analyzing your Garmin data. He’ll share insights on sleep and stress resilience soon. Any questions for now?",
+              "decision": null,
+              "timestamp": "2025-02-05 09:30"
+            }
+          ]
+        },
+        {
+          "month_index": 7,
+          "month": "February",
+          "theme": "The Plateau",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest blood reports. BP looks better but still a bit high for my liking. Any thoughts?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:15"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Great you’re tracking this. Dr. Warren noted the BP improvement but suggests we monitor closely. Shall I schedule a quick virtual check-in?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:20"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. Also, the cholesterol numbers are better but still above ideal. Carla mentioned Omega-3—any updates on that?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:25"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Carla’s team is reviewing your latest micronutrient panel. They’ll sync with your travel schedule for a detailed plan. Should we aim for next week?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:30"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. And the dizziness I mentioned—any correlation with the BP or something else?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:35"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren suspects it could be dehydration or mild electrolyte imbalance. He’ll review your Garmin data for trends. Shall I flag this for Rachel too?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:40"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. Also, the VO2 max improved—good news! But grip strength is still low. Any quick fixes?",
+              "decision": null,
+              "timestamp": "2025-02-10 08:45"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Hi Rohan! For grip strength, try 3x/week of dead hangs (30 sec) and farmer’s carries. I’ll send a video demo. Also, check your posture during desk work—hip stability matters!",
+              "decision": null,
+              "timestamp": "2025-02-10 10:10"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it, Rachel. Will start today. Also, the dizziness—any specific hydration tips?",
+              "decision": null,
+              "timestamp": "2025-02-10 10:20"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Carla suggests adding electrolytes to your water (especially post-run) and monitoring caffeine intake. Shall I send her protocol?",
+              "decision": null,
+              "timestamp": "2025-02-10 10:25"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. And for the Omega-3—any specific brands or dosages?",
+              "decision": null,
+              "timestamp": "2025-02-10 10:30"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! For Omega-3, I recommend 2g/day of EPA/DHA (e.g., Nordic Naturals). Pair with walnuts and fatty fish 2x/week. I’ll share a meal plan with Sarah.",
+              "decision": null,
+              "timestamp": "2025-02-10 14:00"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Carla. Also, the BP—any adjustments to the current meds or just lifestyle?",
+              "decision": null,
+              "timestamp": "2025-02-10 14:10"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Hi Rohan. Current meds are fine. Focus on reducing sodium (especially when traveling) and increasing potassium (bananas, spinach). Monitor BP daily and share data.",
+              "decision": null,
+              "timestamp": "2025-02-10 15:00"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks everyone! 🙌",
+              "decision": null,
+              "timestamp": "2025-02-10 15:15"
+            },
+            {
+              "id": "m_week2_16",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome, Rohan! I’ll summarize all updates for your monthly report. Let us know if you need anything else. 😊",
+              "decision": null,
+              "timestamp": "2025-02-10 15:20"
+            }
+          ]
+        },
+        {
+          "month_index": 7,
+          "month": "February",
+          "theme": "The Plateau",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hi Ruby, just saw the latest blood report. BP is better but LDL still a bit high. Any thoughts?",
+              "decision": null,
+              "timestamp": "2025-02-17 08:15"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! Yes, great progress on BP. Dr. Warren noted the LDL is trending down but could use a nudge. Shall I connect you with Carla for a quick nutrition tweak?",
+              "decision": {
+                "action": "Connect to nutritionist",
+                "reason": "LDL still above optimal",
+                "trigger": "Member's inquiry"
+              },
+              "timestamp": "2025-02-17 08:20"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes please. Also, the grip strength test showed improvement but still below average. Rachel mentioned resistance training?",
+              "decision": null,
+              "timestamp": "2025-02-17 08:25"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Rachel can adjust your plan to include more progressive resistance exercises. Would you like a virtual session this week or next?",
+              "decision": {
+                "action": "Schedule physiotherapy session",
+                "reason": "Grip strength improvement needed",
+                "trigger": "Member's follow-up"
+              },
+              "timestamp": "2025-02-17 08:30"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Next week works. Also, the Oura ring arrived. Should I sync it with the system?",
+              "decision": null,
+              "timestamp": "2025-02-17 08:35"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! Advik will integrate it with your Garmin data for a more complete sleep/HRV analysis. I’ll send the setup instructions to Sarah.",
+              "decision": {
+                "action": "Integrate Oura ring data",
+                "reason": "Comprehensive health tracking",
+                "trigger": "Member's purchase"
+              },
+              "timestamp": "2025-02-17 08:40"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. One more thing—any updates on the cognitive tests?",
+              "decision": null,
+              "timestamp": "2025-02-17 08:45"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Your attention scores improved! Dr. Warren suggests adding 10 mins of mindfulness daily. Neel can share a tailored protocol if you’d like.",
+              "decision": {
+                "action": "Recommend mindfulness protocol",
+                "reason": "Cognitive function improvement",
+                "trigger": "Member's inquiry"
+              },
+              "timestamp": "2025-02-17 08:50"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes please. Also, the dizziness I mentioned—any correlation with the BP changes?",
+              "decision": null,
+              "timestamp": "2025-02-17 09:00"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Dr. Warren thinks it’s likely orthostatic hypotension. He’ll review your meds and suggest hydration tweaks. Shall I book a quick call?",
+              "decision": {
+                "action": "Schedule doctor consultation",
+                "reason": "Dizziness symptom",
+                "trigger": "Member's report"
+              },
+              "timestamp": "2025-02-17 09:05"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, tomorrow if possible. And Carla’s feedback on LDL?",
+              "decision": null,
+              "timestamp": "2025-02-17 09:10"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Carla’s note: Reduce saturated fats further (e.g., limit red meat to 2x/week) and add more walnuts/flaxseeds. She’ll share a revised meal plan via Sarah.",
+              "decision": {
+                "action": "Adjust nutrition plan",
+                "reason": "LDL management",
+                "trigger": "Member's follow-up"
+              },
+              "timestamp": "2025-02-17 09:15"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Thanks Ruby. Will update after the doctor call.",
+              "decision": null,
+              "timestamp": "2025-02-17 09:20"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! Let me know if you need anything else. 🙌",
+              "decision": null,
+              "timestamp": "2025-02-17 09:25"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks!",
+              "decision": null,
+              "timestamp": "2025-02-17 09:30"
+            }
+          ]
+        },
+        {
+          "month_index": 7,
+          "month": "February",
+          "theme": "The Plateau",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest health report. Blood pressure looks better but still a bit high. Any thoughts?",
+              "decision": null,
+              "timestamp": "2025-02-24 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! Yes, we noticed the slight uptick. Dr. Warren wants to discuss this in your next virtual consult. I’ll sync with Sarah to schedule. 😊",
+              "decision": null,
+              "timestamp": "2025-02-24 08:20"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Also, the VO2 max improvement is great. Any tweaks to my workout plan to keep this up?",
+              "decision": null,
+              "timestamp": "2025-02-24 08:22"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Hi Rohan! Your endurance is up, but grip strength and hip stability still need work. Let’s add 2x HIIT sessions/week and focus on resistance training. 💪",
+              "decision": null,
+              "timestamp": "2025-02-24 09:10"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "HIIT sounds good. But I’m traveling to Seoul next week—can we adjust?",
+              "decision": null,
+              "timestamp": "2025-02-24 09:15"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Rachel will send a travel-friendly plan. Also, Carla wants to review your micronutrient levels—Omega-3 is still borderline. 📊",
+              "decision": null,
+              "timestamp": "2025-02-24 09:20"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Let’s prioritize that. Any updates on the skin analysis?",
+              "decision": null,
+              "timestamp": "2025-02-24 09:25"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Improved hydration and pigmentation! The dermatologist recommends adding SPF 50 to your routine. I’ll send product recs. ☀️",
+              "decision": null,
+              "timestamp": "2025-02-24 09:30"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Thanks, Ruby. Let me know when Dr. Warren’s slot is open.",
+              "decision": null,
+              "timestamp": "2025-02-24 09:35"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! Sarah just confirmed your availability for March 3rd at 4 PM. I’ll finalize. 🙌",
+              "decision": null,
+              "timestamp": "2025-02-24 09:40"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. Also, any updates on the gut microbiome? The bifidobacteria levels were concerning.",
+              "decision": null,
+              "timestamp": "2025-02-25 07:30"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Great question! Diversity is improving, but we can boost bifidobacteria with fermented foods (kimchi, kefir) and prebiotics (onions, garlic). I’ll share a meal plan. 🥬",
+              "decision": null,
+              "timestamp": "2025-02-25 08:10"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Carla. Let’s add those. Any other tweaks to the diet?",
+              "decision": null,
+              "timestamp": "2025-02-25 08:15"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Just monitor Omega-3 intake—consider an algae-based supplement if fish intake is low. Your cook can help adjust recipes. 🐟",
+              "decision": null,
+              "timestamp": "2025-02-25 08:20"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks, team! Keep up the good work. 👍",
+              "decision": null,
+              "timestamp": "2025-02-25 08:25"
+            },
+            {
+              "id": "m_week4_16",
+              "author": "Neel",
+              "role": "lead",
+              "text": "You’re making great progress, Rohan! Small adjustments will keep you on track. Let’s tackle the plateau together. 🌟",
+              "decision": null,
+              "timestamp": "2025-02-25 08:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month_index": 8,
+      "month": "March",
+      "theme": "The Wrap-up & New Beginning",
+      "weeks": [
+        {
+          "month_index": 8,
+          "month": "March",
+          "theme": "The Wrap-up & New Beginning",
+          "week": 1,
+          "messages": [
+            {
+              "id": "m_week1_1",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning, Rohan! 🌞 Just checking in—how was your trip to Seoul last week? Any travel fatigue?",
+              "decision": null,
+              "timestamp": "2025-03-03 08:15"
+            },
+            {
+              "id": "m_week1_2",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby! Jet lag was rough, but I’m back on track. BP was a bit high post-flight—any tips?",
+              "decision": null,
+              "timestamp": "2025-03-03 08:20"
+            },
+            {
+              "id": "m_week1_3",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! Dr. Warren suggests extra hydration and electrolytes during travel. Shall I share his protocol with Sarah?",
+              "decision": {
+                "action": "Share travel hydration protocol",
+                "reason": "Member reports post-travel BP spike",
+                "trigger": "Member’s travel history"
+              },
+              "timestamp": "2025-03-03 08:25"
+            },
+            {
+              "id": "m_week1_4",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. Also, my Garmin shows HRV dips during flights—any insights?",
+              "decision": null,
+              "timestamp": "2025-03-03 08:30"
+            },
+            {
+              "id": "m_week1_5",
+              "author": "Advik",
+              "role": "scientist",
+              "text": "Hi Rohan! Your HRV dips align with travel stress. Try 5 mins of box breathing pre-flight. I’ll analyze your Garmin data further.",
+              "decision": {
+                "action": "Analyze Garmin HRV data",
+                "reason": "Member reports HRV fluctuations",
+                "trigger": "Member’s wearable data"
+              },
+              "timestamp": "2025-03-03 09:10"
+            },
+            {
+              "id": "m_week1_6",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Your Omega-3 index is still borderline. Let’s add chia seeds to your breakfast and increase salmon to 3x/week. I’ll update Sarah’s meal plan.",
+              "decision": {
+                "action": "Adjust Omega-3 intake",
+                "reason": "Borderline Omega-3 index",
+                "trigger": "February blood test results"
+              },
+              "timestamp": "2025-03-03 10:45"
+            },
+            {
+              "id": "m_week1_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it, Carla. Any updates on my LDL? Still trending down?",
+              "decision": null,
+              "timestamp": "2025-03-03 11:00"
+            },
+            {
+              "id": "m_week1_8",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Yes! Your LDL is now 110—great progress! Let’s keep the soluble fiber (oats, flaxseeds) and reduce saturated fats further. Avoid processed meats.",
+              "decision": {
+                "action": "Maintain LDL-lowering diet",
+                "reason": "Improved LDL levels",
+                "trigger": "February blood test results"
+              },
+              "timestamp": "2025-03-03 11:10"
+            },
+            {
+              "id": "m_week1_9",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rohan, Rachel noticed your grip strength is still lagging. Want to schedule a virtual physiotherapy session this week?",
+              "decision": {
+                "action": "Schedule virtual physiotherapy session",
+                "reason": "Grip strength below target",
+                "trigger": "February fitness assessment"
+              },
+              "timestamp": "2025-03-04 07:30"
+            },
+            {
+              "id": "m_week1_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, Ruby. Let’s do tomorrow morning at 7 AM. Also, any updates on my biological age?",
+              "decision": null,
+              "timestamp": "2025-03-04 07:35"
+            },
+            {
+              "id": "m_week1_11",
+              "author": "Neel",
+              "role": "lead",
+              "text": "Your biological age is now aligned with your chronological age—huge milestone! 🙌 Keep up the discipline. Let’s discuss next steps in your April checkup.",
+              "decision": {
+                "action": "Schedule April checkup",
+                "reason": "Biological age alignment",
+                "trigger": "February blood test results"
+              },
+              "timestamp": "2025-03-04 08:00"
+            },
+            {
+              "id": "m_week1_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks, Neel! That’s great news. Any concerns about my coronary calcium score?",
+              "decision": null,
+              "timestamp": "2025-03-04 08:10"
+            },
+            {
+              "id": "m_week1_13",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Your score is stable at 20—no progression. Keep up resistance training and BP monitoring. Next full checkup in April. 👨‍⚕️",
+              "decision": {
+                "action": "Monitor coronary calcium score",
+                "reason": "Stable score",
+                "trigger": "February cardiovascular assessment"
+              },
+              "timestamp": "2025-03-04 09:00"
+            },
+            {
+              "id": "m_week1_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rohan, your attention scores improved! Dr. Warren suggests adding 10 mins of mindfulness daily. Neel can share a tailored protocol if you’d like.",
+              "decision": {
+                "action": "Recommend mindfulness practice",
+                "reason": "Improved attention scores",
+                "trigger": "February cognitive assessment"
+              },
+              "timestamp": "2025-03-05 08:00"
+            },
+            {
+              "id": "m_week1_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. Send the protocol to Sarah, please. Also, any updates on my gut microbiome?",
+              "decision": null,
+              "timestamp": "2025-03-05 08:10"
+            },
+            {
+              "id": "m_week1_16",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Your diversity is improving! Let’s add more fermented foods (kimchi, kefir) and prebiotics (onions, garlic). I’ll update your meal plan. 🥬",
+              "decision": {
+                "action": "Adjust gut microbiome diet",
+                "reason": "Improved diversity",
+                "trigger": "February nutritional assessment"
+              },
+              "timestamp": "2025-03-05 09:00"
+            },
+            {
+              "id": "m_week1_17",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rohan, your March report is ready! I’ll send it to Sarah for review. Any questions before we finalize?",
+              "decision": {
+                "action": "Send March report",
+                "reason": "End-of-month review",
+                "trigger": "Monthly reporting cycle"
+              },
+              "timestamp": "2025-03-06 08:00"
+            },
+            {
+              "id": "m_week1_18",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Looks good, Ruby. Thanks for the updates! Let’s keep the momentum going.",
+              "decision": null,
+              "timestamp": "2025-03-06 08:10"
+            }
+          ]
+        },
+        {
+          "month_index": 8,
+          "month": "March",
+          "theme": "The Wrap-up & New Beginning",
+          "week": 2,
+          "messages": [
+            {
+              "id": "m_week2_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Morning Ruby! Just saw the latest health report. Blood pressure looks better but LDL is still a concern. Any thoughts?",
+              "decision": null,
+              "timestamp": "2025-03-10 07:30"
+            },
+            {
+              "id": "m_week2_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Good morning Rohan! 👋 Yes, your LDL has improved but still needs attention. Dr. Warren suggested we focus on dietary tweaks and resistance training. Shall I connect you with Carla for a quick review?",
+              "decision": null,
+              "timestamp": "2025-03-10 07:45"
+            },
+            {
+              "id": "m_week2_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but let’s keep it short. I’m heading to London tomorrow for a 3-day trip. Maybe a 15-min call?",
+              "decision": null,
+              "timestamp": "2025-03-10 07:50"
+            },
+            {
+              "id": "m_week2_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Noted! I’ll schedule a quick sync with Carla for tomorrow morning (Singapore time) before your flight. 🙌",
+              "decision": null,
+              "timestamp": "2025-03-10 07:55"
+            },
+            {
+              "id": "m_week2_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. Also, my Garmin shows my HRV has been low this week. Any ideas why?",
+              "decision": null,
+              "timestamp": "2025-03-10 08:00"
+            },
+            {
+              "id": "m_week2_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Let me pull up your data. It could be travel stress or sleep disruption. Advik (our scientist) noticed your sleep stages were lighter last week. Want me to flag this for your next check-in?",
+              "decision": null,
+              "timestamp": "2025-03-10 08:10"
+            },
+            {
+              "id": "m_week2_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. And can you remind Sarah to book my annual screening for November? I almost forgot.",
+              "decision": null,
+              "timestamp": "2025-03-10 08:15"
+            },
+            {
+              "id": "m_week2_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Already done! I’ve added it to Sarah’s calendar with a 3-month reminder. 📅 Also, your Oura ring arrived—should we sync it with your Garmin data?",
+              "decision": null,
+              "timestamp": "2025-03-10 08:20"
+            },
+            {
+              "id": "m_week2_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, go ahead. Let’s see if it picks up more details. Thanks, Ruby!",
+              "decision": null,
+              "timestamp": "2025-03-10 08:25"
+            },
+            {
+              "id": "m_week2_10",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! Just saw your LDL is still 118. Let’s tweak your diet—more soluble fiber (oats, beans) and plant sterols. Can we try this for 2 weeks and check again?",
+              "decision": null,
+              "timestamp": "2025-03-11 07:30"
+            },
+            {
+              "id": "m_week2_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sounds good. But I’m in London now—any quick swaps for local food?",
+              "decision": null,
+              "timestamp": "2025-03-11 07:40"
+            },
+            {
+              "id": "m_week2_12",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Absolutely! Opt for grilled fish (salmon/mackerel), avocado, and whole-grain bread. Avoid butter-heavy dishes. I’ll send a list to Sarah for your hotel meals.",
+              "decision": null,
+              "timestamp": "2025-03-11 07:45"
+            },
+            {
+              "id": "m_week2_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great, thanks Carla. Also, my BP monitor shows 130/85 today. Normal for travel stress?",
+              "decision": null,
+              "timestamp": "2025-03-11 07:50"
+            },
+            {
+              "id": "m_week2_14",
+              "author": "Dr. Warren",
+              "role": "doctor",
+              "text": "Rohan, that’s within range. Travel spikes BP temporarily. Just monitor and hydrate well. Your meds are stable, so no changes needed yet.",
+              "decision": null,
+              "timestamp": "2025-03-11 08:00"
+            },
+            {
+              "id": "m_week2_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. Will keep an eye on it. Thanks, team! 🙌",
+              "decision": null,
+              "timestamp": "2025-03-11 08:05"
+            },
+            {
+              "id": "m_week2_16",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "You’re welcome! Safe travels, and we’ll follow up post-trip. Let Sarah know if you need anything urgent. ✈️",
+              "decision": null,
+              "timestamp": "2025-03-11 08:10"
+            }
+          ]
+        },
+        {
+          "month_index": 8,
+          "month": "March",
+          "theme": "The Wrap-up & New Beginning",
+          "week": 3,
+          "messages": [
+            {
+              "id": "m_week3_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, just saw the latest health report. Blood pressure looks better!",
+              "decision": null,
+              "timestamp": "2025-03-17 07:30"
+            },
+            {
+              "id": "m_week3_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Great to hear, Rohan! 👍 Your consistency with the diet and exercise is paying off. Dr. Warren will be happy!",
+              "decision": null,
+              "timestamp": "2025-03-17 07:35"
+            },
+            {
+              "id": "m_week3_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yeah, but the cholesterol is still a bit high. Any tips to push it down further?",
+              "decision": null,
+              "timestamp": "2025-03-17 07:40"
+            },
+            {
+              "id": "m_week3_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Let me check with Carla, our nutritionist. She might suggest some tweaks to your current plan. 📊",
+              "decision": null,
+              "timestamp": "2025-03-17 07:45"
+            },
+            {
+              "id": "m_week3_5",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Hi Rohan! 👋 How about adding more fatty fish (salmon, mackerel) and flaxseeds to your meals? Also, reducing refined carbs could help.",
+              "decision": null,
+              "timestamp": "2025-03-17 08:15"
+            },
+            {
+              "id": "m_week3_6",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Got it. I’ll ask Sarah to adjust my meal plan. Any specific snacks you’d recommend?",
+              "decision": null,
+              "timestamp": "2025-03-17 08:20"
+            },
+            {
+              "id": "m_week3_7",
+              "author": "Carla",
+              "role": "nutritionist",
+              "text": "Nuts (almonds, walnuts) and avocados are great. And maybe some dark chocolate (85% cocoa) for a treat! 🍫",
+              "decision": null,
+              "timestamp": "2025-03-17 08:25"
+            },
+            {
+              "id": "m_week3_8",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Perfect. I’ll try that. Also, my Garmin shows my HRV is still a bit low. Any thoughts?",
+              "decision": null,
+              "timestamp": "2025-03-17 08:30"
+            },
+            {
+              "id": "m_week3_9",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rachel, our physiotherapist, suggests adding some yoga or deep breathing exercises to your routine. It might help with recovery and stress. 🧘‍♂️",
+              "decision": null,
+              "timestamp": "2025-03-17 08:40"
+            },
+            {
+              "id": "m_week3_10",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yoga? I’m not sure about that. I prefer running.",
+              "decision": null,
+              "timestamp": "2025-03-17 08:45"
+            },
+            {
+              "id": "m_week3_11",
+              "author": "Rachel",
+              "role": "physiotherapist",
+              "text": "Running is great, but yoga can help with flexibility and recovery. Even 10 minutes a day can make a difference. Give it a try!",
+              "decision": null,
+              "timestamp": "2025-03-17 09:00"
+            },
+            {
+              "id": "m_week3_12",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Alright, I’ll try it. But only if it doesn’t interfere with my runs.",
+              "decision": null,
+              "timestamp": "2025-03-17 09:05"
+            },
+            {
+              "id": "m_week3_13",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Sounds good! Let’s check in next week to see how you’re feeling. 🙌",
+              "decision": null,
+              "timestamp": "2025-03-17 09:10"
+            },
+            {
+              "id": "m_week3_14",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Will do. Thanks, team!",
+              "decision": null,
+              "timestamp": "2025-03-17 09:15"
+            },
+            {
+              "id": "m_week3_15",
+              "author": "Neel",
+              "role": "lead",
+              "text": "You’re doing great, Rohan. Keep it up! We’re here to support you every step of the way. 💪",
+              "decision": null,
+              "timestamp": "2025-03-17 09:20"
+            }
+          ]
+        },
+        {
+          "month_index": 8,
+          "month": "March",
+          "theme": "The Wrap-up & New Beginning",
+          "week": 4,
+          "messages": [
+            {
+              "id": "m_week4_1",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Hey Ruby, quick question about my last blood test results. Saw the cholesterol numbers improved but still not ideal. What’s the next step?",
+              "decision": null,
+              "timestamp": "2025-03-24 08:15"
+            },
+            {
+              "id": "m_week4_2",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Hi Rohan! Great question. Let me pull up your latest report. I’ll loop in Carla (our nutritionist) to discuss. She’s available for a quick call today or tomorrow. 😊",
+              "decision": {
+                "action": "Schedule nutritionist call",
+                "reason": "Member expressed concern about cholesterol",
+                "trigger": "Member-initiated inquiry"
+              },
+              "timestamp": "2025-03-24 08:20"
+            },
+            {
+              "id": "m_week4_3",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Tomorrow works. 7pm? I’ll be in Singapore then.",
+              "decision": null,
+              "timestamp": "2025-03-24 08:25"
+            },
+            {
+              "id": "m_week4_4",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Perfect! I’ll confirm the slot and send a calendar invite via Sarah. Also, Dr. Warren noted your BP is now stable. Well done on that! 👍",
+              "decision": {
+                "action": "Confirm appointment",
+                "reason": "Member’s availability confirmed",
+                "trigger": "Member’s response"
+              },
+              "timestamp": "2025-03-24 08:30"
+            },
+            {
+              "id": "m_week4_5",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Thanks. Any updates on the Oura ring trial? I’m still using Garmin but curious about the sleep data.",
+              "decision": null,
+              "timestamp": "2025-03-24 08:35"
+            },
+            {
+              "id": "m_week4_6",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Yes! Advik (our scientist) analyzed your Garmin data and noted some sleep fragmentation. The Oura ring could help track HRV more precisely. Want me to order one?",
+              "decision": {
+                "action": "Order Oura ring",
+                "reason": "Member expressed interest in sleep tracking",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2025-03-24 08:40"
+            },
+            {
+              "id": "m_week4_7",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Go ahead. Send it to my home address. Also, any updates on the cognitive function tests?",
+              "decision": null,
+              "timestamp": "2025-03-24 08:45"
+            },
+            {
+              "id": "m_week4_8",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Will do! For cognition, your last assessment showed mild attention deficits. Rachel (physio) suggested adding 10-min mindfulness sessions post-workout. Interested?",
+              "decision": {
+                "action": "Recommend mindfulness sessions",
+                "reason": "Cognitive test results",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2025-03-24 08:50"
+            },
+            {
+              "id": "m_week4_9",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Sure, but only if it’s evidence-based. Can Rachel send me studies?",
+              "decision": null,
+              "timestamp": "2025-03-24 08:55"
+            },
+            {
+              "id": "m_week4_10",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Absolutely! I’ll ask her to share 2-3 key papers. Also, your next full-body scan is due in October. Should we prep for that now?",
+              "decision": {
+                "action": "Prepare for October scan",
+                "reason": "Proactive health management",
+                "trigger": "Upcoming scan date"
+              },
+              "timestamp": "2025-03-24 09:00"
+            },
+            {
+              "id": "m_week4_11",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, but let’s focus on diet and exercise first. Any updates on the Omega-3 levels?",
+              "decision": null,
+              "timestamp": "2025-03-24 09:05"
+            },
+            {
+              "id": "m_week4_12",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Your last test showed borderline levels. Carla can discuss supplementation options during your call tomorrow. Should I add that to the agenda?",
+              "decision": {
+                "action": "Add Omega-3 to nutritionist agenda",
+                "reason": "Member’s concern about micronutrients",
+                "trigger": "Member’s inquiry"
+              },
+              "timestamp": "2025-03-24 09:10"
+            },
+            {
+              "id": "m_week4_13",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Yes, please. Also, any feedback on the new running plan?",
+              "decision": null,
+              "timestamp": "2025-03-24 09:15"
+            },
+            {
+              "id": "m_week4_14",
+              "author": "Ruby",
+              "role": "concierge",
+              "text": "Rachel says your VO₂ max improved to 45! Keep up the HIIT. She’ll suggest a tweak to your hip stability routine next week. 🙌",
+              "decision": {
+                "action": "Share fitness progress",
+                "reason": "Member’s inquiry",
+                "trigger": "Member’s question"
+              },
+              "timestamp": "2025-03-24 09:20"
+            },
+            {
+              "id": "m_week4_15",
+              "author": "Rohan Patel",
+              "role": "member",
+              "text": "Great! Thanks, Ruby. Talk to you after the call.",
+              "decision": null,
+              "timestamp": "2025-03-24 09:25"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
