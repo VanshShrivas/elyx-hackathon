@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function GenerateForm() {
-  const [name, setName] = useState("");
+  const [name, setName] = useState("Rohan Patel");
   const [condition, setCondition] = useState("");
   const [months, setMonths] = useState(8);
   const [loading, setLoading] = useState(false);
@@ -45,7 +45,7 @@ export default function GenerateForm() {
       <h2 className="text-xl font-semibold mb-4">Generate New Journey</h2>
 
       <div className="space-y-4">
-        <div>
+        {/* <div>
           <label className="block text-sm font-medium">Member Name</label>
           <input
             type="text"
@@ -63,7 +63,7 @@ export default function GenerateForm() {
             value={condition}
             onChange={(e) => setCondition(e.target.value)}
           />
-        </div>
+        </div> */}
 
         <button
           onClick={handleGenerate}
