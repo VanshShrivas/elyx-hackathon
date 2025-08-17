@@ -31,7 +31,7 @@ export default function App() {
   };
   async function handleRequest(data) {
     try {
-      const response = await fetch("http://localhost:5000/visualize", {
+      const response = await fetch("https://elyx-hackathon-backend.onrender.com/visualize", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

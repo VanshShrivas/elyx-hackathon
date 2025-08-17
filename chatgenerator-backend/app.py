@@ -214,10 +214,10 @@ def generate_and_download():
     if not name:
         return jsonify({"error": "Member name is required"}), 400
     
-    condition = data.get("condition", "none")
-    start_year = data.get("start_year", 2024)
-    start_month = data.get("start_month", 8)
-    months = data.get("months", 8)
+    # condition = data.get("condition", "none")
+    # start_year = data.get("start_year", 2024)
+    # start_month = data.get("start_month", 8)
+    # months = data.get("months", 8)
 
     try:
         print("➡️ Starting journey generation...")

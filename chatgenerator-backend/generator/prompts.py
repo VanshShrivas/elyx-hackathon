@@ -5,7 +5,11 @@ from pydantic import BaseModel, Field
 from typing import Optional, List
 import json
 import re
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+print("Loaded key:", os.getenv("MISTRAL_API_KEY"))
 calendar_months = [
     "January", "February", "March", "April",
     "May", "June", "July", "August",
@@ -212,7 +216,7 @@ prompt = PromptTemplate(
 
 # ---- Connect to Mistral API ----
 llm = ChatMistralAI(
-    api_key="cMh3Pd9mNrDh42d6QzjRm96r1Z1zkyY3",
+    api_key=os.getenv("MISTRAL_API_KEY"),
     model="mistral-small-latest",   # or mistral-medium, mistral-large
     temperature=0.7
 )
@@ -478,7 +482,7 @@ class Episode(BaseModel):
 
 # Reuse the same LLM
 summarizer_llm = ChatMistralAI(
-    api_key="cMh3Pd9mNrDh42d6QzjRm96r1Z1zkyY3",
+    api_key=os.getenv("MISTRAL_API_KEY"),
     model="mistral-small-latest",
     temperature=0.5
 )
