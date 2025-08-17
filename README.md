@@ -1,11 +1,11 @@
-# ChatGenerator 🧩
+# Elyx-Journey-Vizualizer 🧩
 
 Built For Elyx Life Hackathon by **Swarit Srivastava** and **Vansh Srivas**
 
 ---
 
 ## 📌 Overview
-ChatGenerator is a full-stack project that simulates and visualizes **synthetic WhatsApp-style health coaching journeys**.  
+Elyx-Journey-Vizualizer is a full-stack project that simulates and visualizes **synthetic WhatsApp-style health coaching journeys**.  
 It generates journeys (back-end powered by Flask + LangChain + Mistral AI) and visualizes them (front-end powered by React + Vite + Tailwind).
 
 - **Backend (`chatgenerator-backend`)**: Flask API that generates journeys, handles test reports, and provides structured summaries.  
@@ -165,4 +165,4 @@ Interactive visualization with chat bubbles + charts.
 
 👥 Authors
 Swarit Srivastava
-Vansh Srivas
+Vansh Shrivas
