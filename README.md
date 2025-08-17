@@ -163,6 +163,6 @@ Takes journey JSON and summarizes it into 6 episodes with structured fields.
 
 Interactive visualization with chat bubbles + charts.
 
-👥 Authors
-Swarit Srivastava
+👥 Authors: 
+Swarit Srivastava &
 Vansh Shrivas
